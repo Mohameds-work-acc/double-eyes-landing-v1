@@ -1,417 +1,653 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Double Eyes | Premium Marketing Agency</title>
-    <meta
-      name="description"
-      content="Double Eyes is a premium marketing agency building cinematic brand systems, performance campaigns, and creative growth engines."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="preloader" aria-hidden="true">
-      <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
-      <span></span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Double Eyes | Premium Marketing Agency</title>
+  <meta name="description"
+    content="Double Eyes is a premium marketing agency building cinematic brand systems, performance campaigns, and creative growth engines." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800;900&family=Noto+Kufi+Arabic:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="preloader" aria-hidden="true">
+    <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
+    <span></span>
+  </div>
+
+  <div id="siteProgress" class="site-progress" aria-hidden="true"></div>
+  <div class="cursor-orb" aria-hidden="true"></div>
+
+  <header class="premium-nav">
+    <a href="#top" class="brand-logo-link magnetic" aria-label="Double Eyes home">
+      <img src="./assetes/double-eyes-logo-cropped.png" alt="Double Eyes" />
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#machine">Machine</a>
+      <a href="#lenses">Lenses</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta magnetic">
+      <i data-lucide="sparkles"></i>
+      Brief the machine
+    </a>
+
+    <div class="language-switcher" role="radiogroup" aria-label="Change language">
+      <i data-lucide="languages"></i>
+      <label>
+        <input type="radio" name="site-language" value="en" data-language-option checked />
+        <span>EN</span>
+      </label>
+      <label>
+        <input type="radio" name="site-language" value="ar" data-language-option />
+        <span>AR</span>
+      </label>
     </div>
 
-    <div id="siteProgress" class="site-progress" aria-hidden="true"></div>
-    <div class="cursor-orb" aria-hidden="true"></div>
+    <button class="menu-button magnetic" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobileMenu"
+      title="Open menu">
+      <i data-lucide="menu"></i>
+    </button>
+  </header>
 
-    <header class="premium-nav">
-      <a href="#top" class="brand-logo-link magnetic" aria-label="Double Eyes home">
-        <img src="./assetes/double-eyes-logo-cropped.png" alt="Double Eyes" />
-      </a>
+  <div id="mobileMenu" class="mobile-menu hidden">
+    <a href="#machine">Machine</a>
+    <a href="#lenses">Lenses</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </div>
 
-      <nav class="desktop-nav" aria-label="Primary navigation">
+  <main id="top">
+    <section class="hero-premium">
+      <canvas id="attentionScene" class="attention-scene" aria-hidden="true"></canvas>
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="hero-logo-ghost" aria-hidden="true">
+        <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
+      </div>
+
+      <div class="hero-rails" aria-hidden="true" data-depth-card>
+        <figure class="rail rail-a depth-layer">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=90" alt="" />
+        </figure>
+        <figure class="rail rail-b depth-layer">
+          <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=900&q=90" alt="" />
+        </figure>
+        <figure class="rail rail-c depth-layer">
+          <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=900&q=90" alt="" />
+        </figure>
+        <figure class="rail rail-d depth-layer">
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=90"
+            alt="" />
+        </figure>
+      </div>
+
+      <div class="hero-orbit" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow split-line">Double Eyes Attention Studio</p>
+        <h1 class="premium-title" data-split>
+          We engineer the second
+          <br>
+          <p class="eye-word mt-5" data-keep-split>
+            l
+            <span class="word-eyes inline-flex  -translate-y-8 align-middle" aria-label="oo">
+              <span class="sr-only">oo</span>
+
+              <span
+                class="word-eye relative ml-1 inline-flex h-15 w-50  items-center justify-center rounded-full border-6 border-white">
+                <span class="h-3 w-3 rounded-full bg-red-500"></span>
+              </span>
+              <span
+                class="word-eye relative ml-1 inline-flex h-15 w-50  items-center justify-center rounded-full border-6 border-white">
+                <span class="h-3 w-3 rounded-full bg-red-500"></span>
+              </span>
+<!-- 
+              <span
+                class="word-eye relative ml-1 inline-flex h-15 w-50  items-center justify-center rounded-full border-6 border-white">
+                <span class="h-3 w-3 rounded-full bg-red-500"></span>
+              </span> -->
+            </span>
+            k.
+          </p>
+        </h1>
+        <p class="hero-lede reveal">
+          Ultra-premium marketing systems for brands that need cinema, culture, and conversion working in the same
+          pulse.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#contact" class="primary-button magnetic">
+            <i data-lucide="zap"></i>
+            Build the signal
+          </a>
+          <a href="#work" class="ghost-button magnetic">
+            <i data-lucide="play"></i>
+            Watch the reel
+          </a>
+        </div>
+      </div>
+
+      <aside class="hero-console reveal" aria-label="Live brand console">
+        <div class="console-top">
+          <span>Live attention index</span>
+          <strong class="stat-number" data-value="98" data-suffix="%">0%</strong>
+        </div>
+        <div class="console-map" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="console-footer">
+          <span>culture heat</span>
+          <span>media focus</span>
+          <span>conversion pressure</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="red-marquee angled-marquee" aria-label="Agency capabilities">
+      <div data-marquee>
+        <span>Brand worlds</span><b></b><span>Paid growth</span><b></b><span>Launch films</span><b></b><span>Social
+          heat</span><b></b>
+        <span>Conversion systems</span><b></b><span>Creator campaigns</span><b></b><span>Market obsession</span><b></b>
+        <span>Brand worlds</span><b></b><span>Paid growth</span><b></b><span>Launch films</span><b></b><span>Social
+          heat</span>
+      </div>
+    </section>
+
+    <section class="director-section">
+      <div class="director-backdrop" aria-hidden="true">
+        <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
+      </div>
+      <div class="section-shell director-shell">
+        <div class="director-heading reveal">
+          <p class="eyebrow">Director Board</p>
+          <h2 class="section-title ">Choose the lens. Watch the campaign mutate.</h2>
+        </div>
+
+        <div class="director-board" data-director-board>
+          <article class="director-panel is-active reveal" data-director-panel>
+            <img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?auto=format&fit=crop&w=1200&q=90"
+              alt="Campaign strategy workshop" />
+            <div class="panel-index">01</div>
+            <div class="panel-content">
+              <span>Strategy Lens</span>
+              <h3>Find the tension the market already feels.</h3>
+              <p>We turn audience friction into a campaign angle with teeth.</p>
+            </div>
+          </article>
+          <article class="director-panel reveal" data-director-panel>
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=90"
+              alt="Creative production meeting" />
+            <div class="panel-index">02</div>
+            <div class="panel-content">
+              <span>Visual Lens</span>
+              <h3>Build a brand world that looks expensive in motion.</h3>
+              <p>Identity, composition, rhythm, and image language become one code.</p>
+            </div>
+          </article>
+          <article class="director-panel reveal" data-director-panel>
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=90"
+              alt="Performance marketing dashboard" />
+            <div class="panel-index">03</div>
+            <div class="panel-content">
+              <span>Performance Lens</span>
+              <h3>Pressure-test the beautiful thing until it sells.</h3>
+              <p>Creative experiments, media signals, and conversion loops sharpen the system.</p>
+            </div>
+          </article>
+          <article class="director-panel reveal" data-director-panel>
+            <img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=1200&q=90"
+              alt="Social media content campaign" />
+            <div class="panel-index">04</div>
+            <div class="panel-content">
+              <span>Culture Lens</span>
+              <h3>Make the feed feel like it discovered you first.</h3>
+              <p>Hooks, creator angles, and social artifacts built for repeat looks.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="collision-section">
+      <div class="collision-bg-word" aria-hidden="true">LOOK TWICE</div>
+      <div class="section-shell collision-grid">
+        <div class="collision-copy reveal">
+          <p class="eyebrow">Signal Collision</p>
+          <h2 class="section-title">We do not decorate brands. We weaponize attention.</h2>
+        </div>
+
+        <div class="collision-stage" data-depth-card>
+          <figure class="collision-image collision-one depth-layer reveal">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=90"
+              alt="Creative team in a premium studio" />
+          </figure>
+          <figure class="collision-image collision-two depth-layer reveal">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=90"
+              alt="Campaign planning session" />
+          </figure>
+          <figure class="collision-image collision-three depth-layer reveal">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=90"
+              alt="Analytics dashboard closeup" />
+          </figure>
+          <div class="collision-card depth-layer reveal">
+            <span>brand pressure</span>
+            <strong class="stat-number" data-value="11" data-suffix="x">0x</strong>
+            <p>more memorable when story, media, and conversion share one visual code.</p>
+          </div>
+          <div class="collision-red depth-layer reveal" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bento" class="bento-section">
+      <div class="section-shell">
+        <div class="bento-head reveal">
+          <p class="eyebrow">The System</p>
+          <h2 class="section-title">An architecture of total attention.</h2>
+        </div>
+        <div class="bento-grid">
+          <!-- Machine 01 -->
+          <article class="bento-card bento-large reveal tilt-card">
+            <img src="https://images.unsplash.com/photo-1557425529-b1ae9c141e7d?auto=format&fit=crop&w=1100&q=90" alt="" class="bento-bg" />
+            <div class="bento-glass"></div>
+            <div class="bento-content">
+              <span class="bento-tag">01 / Signal intelligence</span>
+              <h3>Dashboards, reads, and maps that tell us where attention gathers.</h3>
+            </div>
+          </article>
+          
+          <!-- Lenses 01 & 02 -->
+          <div class="bento-column">
+            <article class="bento-card bento-small reveal">
+              <i data-lucide="eye" class="bento-icon"></i>
+              <div class="bento-content">
+                <span class="bento-tag">Identity</span>
+                <h3>Build the mark people remember.</h3>
+              </div>
+            </article>
+            <article class="bento-card bento-small reveal">
+              <i data-lucide="film" class="bento-icon"></i>
+              <div class="bento-content">
+                <span class="bento-tag">Content</span>
+                <h3>Make the feed feel like a premiere.</h3>
+              </div>
+            </article>
+          </div>
+
+          <!-- Machine 02 -->
+          <article class="bento-card bento-medium reveal tilt-card">
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1100&q=90" alt="" class="bento-bg" />
+            <div class="bento-glass"></div>
+            <div class="bento-content">
+              <span class="bento-tag">02 / Cinematic systems</span>
+              <h3>Identity, motion language, and launch rituals.</h3>
+            </div>
+          </article>
+
+          <!-- Lenses 03 & 04 -->
+          <article class="bento-card bento-medium reveal bento-dark">
+            <div class="bento-split">
+              <div class="bento-half">
+                <i data-lucide="target" class="bento-icon"></i>
+                <span class="bento-tag">Media</span>
+                <h3>Buy attention surgically.</h3>
+              </div>
+              <div class="bento-divider"></div>
+              <div class="bento-half">
+                <i data-lucide="activity" class="bento-icon"></i>
+                <span class="bento-tag">Funnels</span>
+                <h3>Turn curiosity into action.</h3>
+              </div>
+            </div>
+          </article>
+
+          <!-- Machine 03 -->
+          <article class="bento-card bento-wide reveal tilt-card">
+            <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1100&q=90" alt="" class="bento-bg" />
+            <div class="bento-glass"></div>
+            <div class="bento-content">
+              <span class="bento-tag">03 / Conversion pressure</span>
+              <h3>Pages, offers, and experiments that turn attention into behavior.</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="cinema-reel-section">
+      <div class="section-shell reel-head reveal">
+        <p class="eyebrow">The Reel</p>
+        <h2 class="section-title">Campaigns should move like luxury trailers.</h2>
+      </div>
+
+      <div class="cinema-window">
+        <div class="cinema-track" data-reel-track>
+          <article class="cinema-card">
+            <img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?auto=format&fit=crop&w=1200&q=90"
+              alt="Creative campaign workshop" />
+            <div><span>Launch System</span>
+              <h3>Red Window Rollout</h3>
+            </div>
+          </article>
+          <article class="cinema-card">
+            <img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=1200&q=90"
+              alt="Social media campaign on phone" />
+            <div><span>Social Heat</span>
+              <h3>Scroll Shock</h3>
+            </div>
+          </article>
+          <article class="cinema-card">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=90"
+              alt="Performance analytics dashboard" />
+            <div><span>Growth Engine</span>
+              <h3>The Second Look</h3>
+            </div>
+          </article>
+          <article class="cinema-card">
+            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=90"
+              alt="Strategy and planning session" />
+            <div><span>Brand Film</span>
+              <h3>Market Pulse</h3>
+            </div>
+          </article>
+          <article class="cinema-card">
+            <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=1200&q=90"
+              alt="Marketing research wall" />
+            <div><span>Creator World</span>
+              <h3>Signal Rituals</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-section">
+      <div class="section-shell proof-grid">
+        <div class="proof-panel reveal">
+          <span class="stat-number" data-value="240" data-suffix="%">0%</span>
+          <p>average launch lift across premium sprint campaigns</p>
+        </div>
+        <div class="proof-panel reveal">
+          <span class="stat-number" data-value="38" data-suffix="M">0M</span>
+          <p>mapped impressions across paid and social experiments</p>
+        </div>
+        <div class="proof-panel proof-quote reveal">
+          <blockquote>
+            “Double Eyes made the brand feel more expensive, more alive, and easier to buy from.”
+          </blockquote>
+          <cite>Founder, luxury consumer brand</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="contact" class="final-cta">
+      <div class="cta-logo" aria-hidden="true">
+        <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
+      </div>
+      <div class="section-shell cta-grid">
+        <div class="reveal">
+          <p class="eyebrow">Open the brief</p>
+          <h2 class="section-title">Let’s build the thing your market cannot ignore.</h2>
+        </div>
+        <form id="contactForm" class="premium-form reveal">
+          <label for="email">Send the growth map here</label>
+          <div>
+            <input id="email" name="email" type="email" placeholder="you@brand.com" required />
+            <button class="magnetic" type="submit">
+              <i data-lucide="send"></i>
+              Send
+            </button>
+          </div>
+          <p id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section> -->
+   <section id="contact" class="relative py-24 px-4 md:px-6 bg-[#030303] overflow-hidden ">
+  <!-- Background Image -->
+  <img src="assetes/double-eyes-logo-cropped.png" class="absolute inset-0 w-full h-full object-cover opacity-5" aria-hidden="true" alt="" />
+  
+  <!-- Red Accent Elements -->
+  <div class="absolute top-0 right-0 w-96 h-96 bg-red-600 rounded-full mix-blend-multiply filter blur-3xl opacity-5"></div>
+  <div class="absolute bottom-0 left-0 w-96 h-96 bg-red-600 rounded-full mix-blend-multiply filter blur-3xl opacity-5"></div>
+  
+  <div class="container mx-auto max-w-6xl relative z-10">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+      
+      <!-- Left Content (kept your original design) -->
+      <div class="space-y-6">
+        <!-- Kicker -->
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-0.5 bg-red-600"></div>
+          <p class="text-white font-semibold tracking-wide uppercase text-sm">Open the brief</p>
+        </div>
+        
+        <!-- Heading -->
+        <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+          Let's build the thing your market cannot ignore.
+        </h2>
+        
+        <!-- Subtext -->
+        <p class="text-gray-400 text-lg mt-4">
+          Drop a note. We respond fast — usually within a single business day.
+        </p>
+        
+        
+        
+        <!-- Contact Info -->
+        <ul class="space-y-4 pt-4">
+          <li class="flex items-center gap-3 text-gray-400  transition-colors group cursor-pointer">
+            <i class="fa-solid fa-envelope w-5 text-red-600 group-hover:scale-110 transition-transform"></i>
+            <span class="group-hover:translate-x-1 transition-transform">hello@doubleeyes.agency</span>
+          </li>
+          <li class="flex items-center gap-3 text-gray-400  transition-colors group cursor-pointer">
+            <i class="fa-solid fa-globe w-5 text-red-600 group-hover:scale-110 transition-transform"></i>
+            <span class="group-hover:translate-x-1 transition-transform">Remote · EU / NA</span>
+          </li>
+          <li class="flex items-center gap-3 text-gray-400  transition-colors group cursor-pointer">
+            <i class="fa-brands fa-instagram w-5 text-red-600 group-hover:scale-110 transition-transform"></i>
+            <span class="group-hover:translate-x-1 transition-transform">@doubleeyes</span>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Right Form - REDESIGNED with beautiful UI -->
+      <div class=" bg-[#0C0C0C]  border border-gray-800 rounded-3xl p-8 md:p-10 shadow-2xl shadow-black/5 hover:shadow-2xl hover:shadow-red-500/10 transition-all duration-500">
+        <!-- Form Header -->
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center gap-2 bg-red-50 px-4 py-2 rounded-full mb-4">
+            <span class="w-2 h-2 bg-red-600 rounded-full animate-pulse"></span>
+            <span class="text-xs font-bold uppercase tracking-wider text-red-600">We reply in 24h</span>
+          </div>
+          <h3 class="text-2xl font-bold text-white">Send a signal</h3>
+          <p class="text-gray-400 text-sm mt-1">Let's create something unforgettable</p>
+        </div>
+        
+        <form id="contactForm" class="space-y-6" novalidate>
+          <!-- Name & Email Row -->
+          <div class="grid md:grid-cols-2 gap-5">
+            <div class="relative group">
+              <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 group-focus-within:text-red-600 transition-colors">
+                Full name <span class="text-red-600">*</span>
+              </label>
+              <div class="relative">
+                <i class="fa-solid fa-user absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-red-600 transition-colors text-sm"></i>
+                <input type="text" name="name" required minlength="2" 
+                  class="w-full pl-11 pr-4 py-3.5 bg-black border-2 border-gray-800 text-white placeholder:text-gray-500 rounded-xl focus:outline-none focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all duration-300" 
+                  placeholder="John Doe" />
+              </div>
+            </div>
+            <div class="relative group">
+              <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 group-focus-within:text-red-600 transition-colors">
+                Email address <span class="text-red-600">*</span>
+              </label>
+              <div class="relative">
+                <i class="fa-solid fa-envelope absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-red-600 transition-colors text-sm"></i>
+                <input type="email" name="email" required 
+                  class="w-full pl-11 pr-4 py-3.5 bg-black border-2 border-gray-800 text-white placeholder:text-gray-500 rounded-xl focus:outline-none focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all duration-300" 
+                  placeholder="hello@company.com" />
+              </div>
+            </div>
+          </div>
+          
+          <!-- Company & Project Row -->
+          <div class="grid md:grid-cols-2 gap-5">
+            <div class="relative group">
+              <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 group-focus-within:text-red-600 transition-colors">
+                Company name
+              </label>
+              <div class="relative">
+                <i class="fa-solid fa-building absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-red-600 transition-colors text-sm"></i>
+                <input type="text" name="company" 
+                  class="w-full pl-11 pr-4 py-3.5 bg-black border-2 border-gray-800 text-white placeholder:text-gray-500 rounded-xl focus:outline-none focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all duration-300" 
+                  placeholder="Your brand name" />
+              </div>
+            </div>
+            <div class="relative group">
+              <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 group-focus-within:text-red-600 transition-colors">
+                Project type
+              </label>
+              <div class="relative">
+                <i class="fa-solid fa-briefcase absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-red-600 transition-colors text-sm"></i>
+                <select name="project" 
+                  class="w-full pl-11 pr-10 py-3.5 bg-black border-2 border-gray-800 text-white  focus:outline-none focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all duration-300 cursor-pointer appearance-none">
+                  <option>Brand system</option>
+                  <option>Launch campaign</option>
+                  <option>Paid growth</option>
+                  <option>Web & funnels</option>
+                  <option>Other</option>
+                </select>
+                <i class="fa-solid fa-chevron-down absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none text-sm"></i>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Message -->
+          <div class="relative group">
+            <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2 group-focus-within:text-red-600 transition-colors">
+              Tell us about your brand <span class="text-red-600">*</span>
+            </label>
+            <div class="relative">
+              <i class="fa-solid fa-pen-fancy absolute left-4 top-4 text-gray-400 group-focus-within:text-red-600 transition-colors text-sm"></i>
+              <textarea name="message" rows="5" required minlength="10" 
+                class="w-full pl-11 pr-4 py-3.5 bg-black border-2 border-gray-800 text-white placeholder:text-gray-500 focus:outline-none focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all duration-300 resize-none" 
+                placeholder="What challenge are you facing? What's your vision?"></textarea>
+            </div>
+          </div>
+          
+         
+          
+          <!-- How did you hear about us? -->
+          <div class="relative group">
+            <label class="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-2">How did you find us?</label>
+            <div class="relative">
+              <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
+              <select name="source" class="w-full pl-11 pr-10 py-3.5 bg-black border-2 border-gray-800 rounded-xl text-gray-400 focus:outline-none focus:border-red-500 focus:ring-4 focus:ring-red-500/10 transition-all duration-300 cursor-pointer appearance-none">
+                <option>Google / Search</option>
+                <option>Instagram</option>
+                <option>LinkedIn</option>
+                <option>Referral</option>
+                <option>Podcast / Blog</option>
+                <option>Other</option>
+              </select>
+              <i class="fa-solid fa-chevron-down absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none text-sm"></i>
+            </div>
+          </div>
+          
+          <!-- Submit Button with enhanced design -->
+          <button type="submit" 
+            class="relative w-full   bg-red-700 hover:bg-red-600 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl flex items-center justify-center gap-3 group overflow-hidden">
+            <span class="absolute inset-0 bg-gradient-to-r from-red-600 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+            <span class="relative z-10 flex items-center gap-3">
+              <i class="fa-solid fa-paper-plane group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"></i>
+              <span>Send the signal →</span>
+            </span>
+          </button>
+          
+          <!-- Trust Badge -->
+          <div class="flex items-center justify-center gap-4 pt-2">
+            <div class="flex items-center gap-2 text-xs text-gray-500">
+              <i class="fa-solid fa-lock text-red-600"></i>
+              <span>Your info is safe</span>
+            </div>
+            <div class="w-px h-3 bg-gray-300"></div>
+            <div class="flex items-center gap-2 text-xs text-gray-500">
+              <i class="fa-regular fa-clock text-red-600"></i>
+              <span>Reply within 24h</span>
+            </div>
+          </div>
+          
+          <!-- Form Status -->
+          <p class="text-sm text-gray-500 text-center" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="premium-footer">
+    <div class="section-shell footer-grid">
+      <div class="footer-brand reveal">
+        <a href="#top" class="footer-logo magnetic" aria-label="Double Eyes home">
+          <img src="./assetes/double-eyes-logo-cropped.png" alt="Double Eyes" />
+        </a>
+        <p>
+          Premium marketing systems for brands built to be seen twice: once by culture, once by revenue.
+        </p>
+      </div>
+
+      <nav class="footer-nav reveal" aria-label="Footer navigation">
         <a href="#machine">Machine</a>
         <a href="#lenses">Lenses</a>
         <a href="#work">Work</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <a href="#contact" class="nav-cta magnetic">
-        <i data-lucide="sparkles"></i>
-        Brief the machine
-      </a>
-
-      <button class="menu-button magnetic" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobileMenu" title="Open menu">
-        <i data-lucide="menu"></i>
-      </button>
-    </header>
-
-    <div id="mobileMenu" class="mobile-menu hidden">
-      <a href="#machine">Machine</a>
-      <a href="#lenses">Lenses</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
+      <div class="footer-contact reveal">
+        <span>Open signal</span>
+        <a class="footer-email" href="mailto:hello@doubleeyes.agency">hello@doubleeyes.agency</a>
+        <a href="#contact" class="footer-button magnetic">
+          <i data-lucide="arrow-up-right"></i>
+          Start a brief
+        </a>
+      </div>
     </div>
 
-    <main id="top">
-      <section class="hero-premium">
-        <canvas id="attentionScene" class="attention-scene" aria-hidden="true"></canvas>
-        <div class="hero-noise" aria-hidden="true"></div>
-        <div class="hero-logo-ghost" aria-hidden="true">
-          <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
-        </div>
+    <div class="footer-wordmark" aria-hidden="true">
+      <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
+    </div>
 
-        <div class="hero-rails" aria-hidden="true" data-depth-card>
-          <figure class="rail rail-a depth-layer">
-            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=90" alt="" />
-          </figure>
-          <figure class="rail rail-b depth-layer">
-            <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=900&q=90" alt="" />
-          </figure>
-          <figure class="rail rail-c depth-layer">
-            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=900&q=90" alt="" />
-          </figure>
-          <figure class="rail rail-d depth-layer">
-            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=90" alt="" />
-          </figure>
-        </div>
+    <div class="footer-bottom">
+      <span>Double Eyes</span>
+      <span>Brand sight / Performance heat / Creative impact</span>
+      <span>2026</span>
+    </div>
+  </footer>
 
-        <div class="hero-orbit" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="./script.js" defer></script>
+</body>
 
-        <div class="hero-copy">
-          <p class="eyebrow split-line">Double Eyes Attention Studio</p>
-          <h1 class="premium-title" data-split>
-            We engineer the second
-            <br>
-            <p class="eye-word mt-5" data-keep-split>
-              l
-              <span
-                class="word-eyes inline-flex  -translate-y-6 align-middle"
-                aria-label="oo"
-              >
-                <span class="sr-only">oo</span>
-
-                <span class="word-eye relative inline-flex h-10 w-50 items-center justify-center rounded-full border-4 border-white">
-                  <span class="h-3 w-3 rounded-full bg-red-500"></span>
-                </span>
-
-                <span class="word-eye relative ml-1 inline-flex h-10 w-50  items-center justify-center rounded-full border-4 border-white">
-                  <span class="h-3 w-3 rounded-full bg-red-500"></span>
-                </span>
-              </span>
-              k.
-            </p>
-          </h1>
-          <p class="hero-lede reveal">
-            Ultra-premium marketing systems for brands that need cinema, culture, and conversion working in the same pulse.
-          </p>
-
-          <div class="hero-actions reveal">
-            <a href="#contact" class="primary-button magnetic">
-              <i data-lucide="zap"></i>
-              Build the signal
-            </a>
-            <a href="#work" class="ghost-button magnetic">
-              <i data-lucide="play"></i>
-              Watch the reel
-            </a>
-          </div>
-        </div>
-
-        <aside class="hero-console reveal" aria-label="Live brand console">
-          <div class="console-top">
-            <span>Live attention index</span>
-            <strong class="stat-number" data-value="98" data-suffix="%">0%</strong>
-          </div>
-          <div class="console-map" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <div class="console-footer">
-            <span>culture heat</span>
-            <span>media focus</span>
-            <span>conversion pressure</span>
-          </div>
-        </aside>
-      </section>
-
-      <section class="red-marquee" aria-label="Agency capabilities">
-        <div data-marquee>
-          <span>Brand worlds</span><b></b><span>Paid growth</span><b></b><span>Launch films</span><b></b><span>Social heat</span><b></b>
-          <span>Conversion systems</span><b></b><span>Creator campaigns</span><b></b><span>Market obsession</span><b></b>
-          <span>Brand worlds</span><b></b><span>Paid growth</span><b></b><span>Launch films</span><b></b><span>Social heat</span>
-        </div>
-      </section>
-
-      <section class="director-section">
-        <div class="director-backdrop" aria-hidden="true">
-          <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
-        </div>
-        <div class="section-shell director-shell">
-          <div class="director-heading reveal">
-            <p class="eyebrow">Director Board</p>
-            <h2 class="section-title ">Choose the lens. Watch the campaign mutate.</h2>
-          </div>
-
-          <div class="director-board" data-director-board>
-            <article class="director-panel is-active reveal" data-director-panel>
-              <img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?auto=format&fit=crop&w=1200&q=90" alt="Campaign strategy workshop" />
-              <div class="panel-index">01</div>
-              <div class="panel-content">
-                <span>Strategy Lens</span>
-                <h3>Find the tension the market already feels.</h3>
-                <p>We turn audience friction into a campaign angle with teeth.</p>
-              </div>
-            </article>
-            <article class="director-panel reveal" data-director-panel>
-              <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=90" alt="Creative production meeting" />
-              <div class="panel-index">02</div>
-              <div class="panel-content">
-                <span>Visual Lens</span>
-                <h3>Build a brand world that looks expensive in motion.</h3>
-                <p>Identity, composition, rhythm, and image language become one code.</p>
-              </div>
-            </article>
-            <article class="director-panel reveal" data-director-panel>
-              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=90" alt="Performance marketing dashboard" />
-              <div class="panel-index">03</div>
-              <div class="panel-content">
-                <span>Performance Lens</span>
-                <h3>Pressure-test the beautiful thing until it sells.</h3>
-                <p>Creative experiments, media signals, and conversion loops sharpen the system.</p>
-              </div>
-            </article>
-            <article class="director-panel reveal" data-director-panel>
-              <img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=1200&q=90" alt="Social media content campaign" />
-              <div class="panel-index">04</div>
-              <div class="panel-content">
-                <span>Culture Lens</span>
-                <h3>Make the feed feel like it discovered you first.</h3>
-                <p>Hooks, creator angles, and social artifacts built for repeat looks.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="collision-section">
-        <div class="collision-bg-word" aria-hidden="true">LOOK TWICE</div>
-        <div class="section-shell collision-grid">
-          <div class="collision-copy reveal">
-            <p class="eyebrow">Signal Collision</p>
-            <h2 class="section-title">We do not decorate brands. We weaponize attention.</h2>
-          </div>
-
-          <div class="collision-stage" data-depth-card>
-            <figure class="collision-image collision-one depth-layer reveal">
-              <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=90" alt="Creative team in a premium studio" />
-            </figure>
-            <figure class="collision-image collision-two depth-layer reveal">
-              <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=90" alt="Campaign planning session" />
-            </figure>
-            <figure class="collision-image collision-three depth-layer reveal">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=90" alt="Analytics dashboard closeup" />
-            </figure>
-            <div class="collision-card depth-layer reveal">
-              <span>brand pressure</span>
-              <strong class="stat-number" data-value="11" data-suffix="x">0x</strong>
-              <p>more memorable when story, media, and conversion share one visual code.</p>
-            </div>
-            <div class="collision-red depth-layer reveal" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="machine" class="machine-section">
-        <div class="section-shell machine-grid">
-          <div class="sticky-copy reveal">
-            <p class="eyebrow">The Machine</p>
-            <h2 class="section-title">Not a campaign. A controlled attention architecture.</h2>
-            <p>
-              Double Eyes designs the entire sensory system: the first impression, the social proof, the retargeting memory, and the landing page that closes the loop.
-            </p>
-          </div>
-
-          <div class="machine-stack">
-            <article class="machine-card reveal tilt-card">
-              <img src="https://images.unsplash.com/photo-1557425529-b1ae9c141e7d?auto=format&fit=crop&w=1100&q=90" alt="Marketing dashboard and analytics" />
-              <span>01</span>
-              <h3>Signal intelligence</h3>
-              <p>Live dashboards, creative reads, and audience maps that tell us where attention is gathering.</p>
-            </article>
-            <article class="machine-card reveal tilt-card">
-              <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1100&q=90" alt="Premium creative studio workspace" />
-              <span>02</span>
-              <h3>Cinematic systems</h3>
-              <p>Identity, motion language, campaign art direction, social templates, and launch rituals.</p>
-            </article>
-            <article class="machine-card reveal tilt-card">
-              <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1100&q=90" alt="Creative team working together" />
-              <span>03</span>
-              <h3>Conversion pressure</h3>
-              <p>Pages, offers, email, retargeting, and experimentation that turn attention into behavior.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="lenses" class="lenses-section">
-        <div class="section-shell">
-          <div class="section-head reveal">
-            <p class="eyebrow">Creative Lenses</p>
-            <h2 class="section-title">Four ways we make a brand impossible to scroll past.</h2>
-          </div>
-
-          <div class="lens-grid">
-            <article class="lens-card reveal">
-              <i data-lucide="eye"></i>
-              <span>Identity</span>
-              <h3>Build the mark people remember in motion.</h3>
-            </article>
-            <article class="lens-card reveal">
-              <i data-lucide="film"></i>
-              <span>Content</span>
-              <h3>Make the feed feel like a premiere.</h3>
-            </article>
-            <article class="lens-card reveal">
-              <i data-lucide="target"></i>
-              <span>Media</span>
-              <h3>Buy attention with surgical creative tests.</h3>
-            </article>
-            <article class="lens-card reveal">
-              <i data-lucide="activity"></i>
-              <span>Funnels</span>
-              <h3>Turn curiosity into action without losing taste.</h3>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="work" class="cinema-reel-section">
-        <div class="section-shell reel-head reveal">
-          <p class="eyebrow">The Reel</p>
-          <h2 class="section-title">Campaigns should move like luxury trailers.</h2>
-        </div>
-
-        <div class="cinema-window">
-          <div class="cinema-track" data-reel-track>
-            <article class="cinema-card">
-              <img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?auto=format&fit=crop&w=1200&q=90" alt="Creative campaign workshop" />
-              <div><span>Launch System</span><h3>Red Window Rollout</h3></div>
-            </article>
-            <article class="cinema-card">
-              <img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=1200&q=90" alt="Social media campaign on phone" />
-              <div><span>Social Heat</span><h3>Scroll Shock</h3></div>
-            </article>
-            <article class="cinema-card">
-              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=90" alt="Performance analytics dashboard" />
-              <div><span>Growth Engine</span><h3>The Second Look</h3></div>
-            </article>
-            <article class="cinema-card">
-              <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=90" alt="Strategy and planning session" />
-              <div><span>Brand Film</span><h3>Market Pulse</h3></div>
-            </article>
-            <article class="cinema-card">
-              <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=1200&q=90" alt="Marketing research wall" />
-              <div><span>Creator World</span><h3>Signal Rituals</h3></div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="proof-section">
-        <div class="section-shell proof-grid">
-          <div class="proof-panel reveal">
-            <span class="stat-number" data-value="240" data-suffix="%">0%</span>
-            <p>average launch lift across premium sprint campaigns</p>
-          </div>
-          <div class="proof-panel reveal">
-            <span class="stat-number" data-value="38" data-suffix="M">0M</span>
-            <p>mapped impressions across paid and social experiments</p>
-          </div>
-          <div class="proof-panel proof-quote reveal">
-            <blockquote>
-              “Double Eyes made the brand feel more expensive, more alive, and easier to buy from.”
-            </blockquote>
-            <cite>Founder, luxury consumer brand</cite>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="final-cta">
-        <div class="cta-logo" aria-hidden="true">
-          <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
-        </div>
-        <div class="section-shell cta-grid">
-          <div class="reveal">
-            <p class="eyebrow">Open the brief</p>
-            <h2 class="section-title">Let’s build the thing your market cannot ignore.</h2>
-          </div>
-          <form id="contactForm" class="premium-form reveal">
-            <label for="email">Send the growth map here</label>
-            <div>
-              <input id="email" name="email" type="email" placeholder="you@brand.com" required />
-              <button class="magnetic" type="submit">
-                <i data-lucide="send"></i>
-                Send
-              </button>
-            </div>
-            <p id="formNote" role="status" aria-live="polite"></p>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="premium-footer">
-      <div class="section-shell footer-grid">
-        <div class="footer-brand reveal">
-          <a href="#top" class="footer-logo magnetic" aria-label="Double Eyes home">
-            <img src="./assetes/double-eyes-logo-cropped.png" alt="Double Eyes" />
-          </a>
-          <p>
-            Premium marketing systems for brands built to be seen twice: once by culture, once by revenue.
-          </p>
-        </div>
-
-        <nav class="footer-nav reveal" aria-label="Footer navigation">
-          <a href="#machine">Machine</a>
-          <a href="#lenses">Lenses</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
-        </nav>
-
-        <div class="footer-contact reveal">
-          <span>Open signal</span>
-          <a class="footer-email" href="mailto:hello@doubleeyes.agency">hello@doubleeyes.agency</a>
-          <a href="#contact" class="footer-button magnetic">
-            <i data-lucide="arrow-up-right"></i>
-            Start a brief
-          </a>
-        </div>
-      </div>
-
-      <div class="footer-wordmark" aria-hidden="true">
-        <img src="./assetes/double-eyes-logo-cropped.png" alt="" />
-      </div>
-
-      <div class="footer-bottom">
-        <span>Double Eyes</span>
-        <span>Brand sight / Performance heat / Creative impact</span>
-        <span>2026</span>
-      </div>
-    </footer>
-
-    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
-    <script src="./script.js" defer></script>
-  </body>
 </html>
