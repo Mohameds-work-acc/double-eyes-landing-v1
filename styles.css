@@ -527,12 +527,12 @@ html[dir="rtl"] .rail-d {
 }
 
 .premium-title {
-  max-width: 1100px;
+  max-width: 1180px;
   margin-top: 20px;
-  font-size: clamp(5rem, 14vw, 9.4rem);
-  line-height: 0.82;
+  font-size: clamp(3.6rem, 6.4vw, 5.2rem);
+  line-height: 0.92;
   text-transform: uppercase;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 
 .split-word {
@@ -640,7 +640,7 @@ html[dir="rtl"] .rail-d {
 
 .hero-lede {
   max-width: 720px;
-  margin: 42px 0 0;
+  margin: 28px 0 0;
   color: rgba(255, 255, 255, 0.74);
   font-size: clamp(1.2rem, 1.8vw, 1.5rem);
   font-weight: 600;
@@ -652,7 +652,7 @@ html[dir="rtl"] .rail-d {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
-  margin-top: 42px;
+  margin-top: 28px;
 }
 
 .primary-button,
@@ -1431,6 +1431,284 @@ html[dir="rtl"] .cinema-card div {
   line-height: 0.84;
 }
 
+.process-section {
+  overflow: hidden;
+  padding: clamp(96px, 12vw, 160px) 0;
+  background:
+    radial-gradient(circle at 18% 16%, rgba(240, 8, 22, 0.18), transparent 30%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    var(--black);
+  background-size: auto, 72px 72px, 72px 72px;
+}
+
+.process-shell {
+  display: grid;
+  grid-template-columns: 0.86fr 1.14fr;
+  gap: clamp(32px, 6vw, 72px);
+  align-items: start;
+}
+
+.process-head {
+  position: sticky;
+  top: 128px;
+}
+
+.process-head .section-title {
+  max-width: 650px;
+  font-size: clamp(2.65rem, 4.6vw, 4.8rem);
+  line-height: 0.98;
+}
+
+.process-head p:not(.eyebrow) {
+  max-width: 560px;
+  margin: 28px 0 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+.process-board {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent),
+    rgba(255, 255, 255, 0.03);
+  padding: clamp(16px, 2.4vw, 28px);
+  overflow: hidden;
+}
+
+.process-board::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 82% 0%, rgba(240, 8, 22, 0.28), transparent 36%);
+  pointer-events: none;
+}
+
+.process-signal {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.process-signal span {
+  height: 7px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+}
+
+.process-signal span::before {
+  content: "";
+  display: block;
+  width: 46%;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--red);
+  box-shadow: 0 0 22px rgba(240, 8, 22, 0.7);
+}
+
+.process-signal span:nth-child(2)::before {
+  width: 68%;
+}
+
+.process-signal span:nth-child(3)::before {
+  width: 34%;
+}
+
+.process-step {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 76px 1fr;
+  gap: 22px;
+  align-items: start;
+  min-height: 128px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.42);
+  padding: 22px;
+  transition: transform 220ms ease, border-color 220ms ease, background 220ms ease;
+}
+
+.process-step:hover,
+.process-step.is-active {
+  border-color: rgba(240, 8, 22, 0.56);
+  background: rgba(240, 8, 22, 0.08);
+  transform: translateX(-8px);
+}
+
+.step-num {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 950;
+  box-shadow: 0 18px 44px rgba(240, 8, 22, 0.32);
+}
+
+.process-step h3 {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(1.5rem, 2.2vw, 2.25rem);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.process-step p {
+  margin: 12px 0 0;
+  color: rgba(255, 255, 255, 0.66);
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.market-section,
+.credentials-section {
+  overflow: hidden;
+  padding: clamp(96px, 12vw, 160px) 0;
+}
+
+.market-section {
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.045) 1px, transparent 1px),
+    linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    var(--white);
+  background-size: 72px 72px;
+  color: var(--black);
+}
+
+.market-shell {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(32px, 6vw, 72px);
+  align-items: center;
+}
+
+.market-copy .section-title {
+  color: var(--black);
+}
+
+.market-copy p:not(.eyebrow) {
+  max-width: 560px;
+  margin: 24px 0 0;
+  color: rgba(0, 0, 0, 0.62);
+  font-size: 1.08rem;
+  font-weight: 800;
+  line-height: 1.7;
+}
+
+.market-map {
+  display: grid;
+  gap: 12px;
+}
+
+.market-map article {
+  position: relative;
+  min-height: 190px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 92% 16%, rgba(240, 8, 22, 0.16), transparent 34%),
+    rgba(255, 255, 255, 0.72);
+  padding: 26px;
+  overflow: hidden;
+}
+
+.market-map article::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: var(--red);
+}
+
+.market-map span,
+.credential-card span {
+  color: var(--red);
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.market-map strong {
+  display: block;
+  margin-top: 18px;
+  font-size: clamp(2.2rem, 5vw, 4.8rem);
+  font-weight: 950;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.market-map p {
+  max-width: 560px;
+  margin: 18px 0 0;
+  color: rgba(0, 0, 0, 0.62);
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.credentials-section {
+  background:
+    radial-gradient(circle at 76% 8%, rgba(240, 8, 22, 0.18), transparent 34%),
+    var(--black);
+}
+
+.credentials-head {
+  display: grid;
+  grid-template-columns: 0.65fr 1.35fr;
+  gap: 36px;
+  align-items: end;
+  margin-bottom: 46px;
+}
+
+.credentials-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.credential-card {
+  min-height: 320px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+  padding: 26px;
+}
+
+.credential-card svg {
+  width: 34px;
+  height: 34px;
+  color: var(--red);
+}
+
+.credential-card h3 {
+  margin: 110px 0 14px;
+  color: var(--white);
+  font-size: clamp(1.35rem, 2vw, 2rem);
+  font-weight: 900;
+  line-height: 1.05;
+}
+
+.credential-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.64);
+  font-weight: 700;
+  line-height: 1.6;
+}
+
 .proof-section {
   background: var(--white);
   color: var(--black);
@@ -1860,19 +2138,28 @@ html[dir="rtl"] .cinema-card div {
   display: none !important;
 }
 
+@media (max-width: 1300px) {
+  .hero-console {
+    display: none;
+  }
+}
+
 @media (max-width: 1100px) {
   .premium-nav {
     grid-template-columns: 150px 1fr auto auto;
   }
 
-  .hero-console {
-    display: none;
-  }
-
   .collision-grid,
   .machine-grid,
-  .cta-grid {
+  .cta-grid,
+  .process-shell,
+  .market-shell {
     grid-template-columns: 1fr;
+  }
+
+  .process-head {
+    position: relative;
+    top: auto;
   }
 
   .collision-stage {
@@ -1906,8 +2193,13 @@ html[dir="rtl"] .cinema-card div {
   }
 
   .lens-grid,
-  .proof-grid {
+  .proof-grid,
+  .credentials-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .credentials-head {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1951,7 +2243,7 @@ html[dir="rtl"] .cinema-card div {
   }
 
   .hero-copy {
-    padding: 20vh 0 13vh;
+    padding: 17vh 0 11vh;
   }
 
   html[dir="rtl"] .hero-copy {
@@ -1962,8 +2254,12 @@ html[dir="rtl"] .cinema-card div {
   }
 
   .premium-title {
-    font-size: clamp(3.65rem, 16.4vw, 5.2rem);
-    line-height: 0.82;
+    font-size: clamp(2.45rem, 10.8vw, 3.4rem);
+    line-height: 0.92;
+  }
+
+  .eye-word {
+    white-space: normal;
   }
 
   html[dir="rtl"] .premium-title {
@@ -2086,6 +2382,33 @@ html[dir="rtl"] .cinema-card div {
   .lens-grid,
   .proof-grid {
     grid-template-columns: 1fr;
+  }
+
+  .process-step {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    transform: none !important;
+  }
+
+  .process-step:hover,
+  .process-step.is-active {
+    transform: none;
+  }
+
+  .market-map strong {
+    font-size: clamp(2rem, 14vw, 3.4rem);
+  }
+
+  .credentials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .credential-card {
+    min-height: 260px;
+  }
+
+  .credential-card h3 {
+    margin-top: 72px;
   }
 
   .lens-card {

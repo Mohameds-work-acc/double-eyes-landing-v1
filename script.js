@@ -47,175 +47,516 @@ const heroTitleHtml = {
 };
 
 const translations = {
-  en: {
-    title: "Double Eyes | Premium Marketing Agency",
-    description: "Double Eyes is a premium marketing agency building cinematic brand systems, performance campaigns, and creative growth engines.",
-    nav: ["Machine", "Lenses", "Work", "Contact"],
-    footerNav: ["Machine", "Lenses", "Work", "Contact"],
-    ctaNav: "Brief the machine",
-    menuTitle: "Open menu",
-    heroEyebrow: "Double Eyes Attention Studio",
-    heroTitle: heroTitleHtml.en,
-    heroLede: "Ultra-premium marketing systems for brands that need cinema, culture, and conversion working in the same pulse.",
-    heroPrimary: "Build the signal",
-    heroSecondary: "Watch the reel",
-    consoleTop: "Live attention index",
-    consoleFooter: ["culture heat", "media focus", "conversion pressure"],
-    marquee: ["Brand worlds", "Paid growth", "Launch films", "Social heat", "Conversion systems", "Creator campaigns", "Market obsession"],
-    directorEyebrow: "Director Board",
-    directorTitle: "Choose the lens. Watch the campaign mutate.",
-    panels: [
-      ["Strategy Lens", "Find the tension the market already feels.", "We turn audience friction into a campaign angle with teeth."],
-      ["Visual Lens", "Build a brand world that looks expensive in motion.", "Identity, composition, rhythm, and image language become one code."],
-      ["Performance Lens", "Pressure-test the beautiful thing until it sells.", "Creative experiments, media signals, and conversion loops sharpen the system."],
-      ["Culture Lens", "Make the feed feel like it discovered you first.", "Hooks, creator angles, and social artifacts built for repeat looks."]
+  "en": {
+    "title": "Double Eyes | Bilingual 360 Marketing Agency",
+    "description": "Double Eyes is an independent bilingual 360 marketing agency rooted in Saudi Arabia and Egypt, serving ambitious brands across the GCC and MENA.",
+    "nav": [
+      "Who We Are",
+      "Services",
+      "Work",
+      "Contact"
     ],
-    collisionWord: "LOOK TWICE",
-    collisionEyebrow: "Signal Collision",
-    collisionTitle: "We do not decorate brands. We weaponize attention.",
-    collisionCard: ["brand pressure", "more memorable when story, media, and conversion share one visual code."],
-    systemEyebrow: "The System",
-    systemTitle: "An architecture of total attention.",
-    bento: [
-      ["01 / Signal intelligence", "Dashboards, reads, and maps that tell us where attention gathers."],
-      ["Identity", "Build the mark people remember."],
-      ["Content", "Make the feed feel like a premiere."],
-      ["02 / Cinematic systems", "Identity, motion language, and launch rituals."],
-      ["Media", "Buy attention surgically."],
-      ["Funnels", "Turn curiosity into action."],
-      ["03 / Conversion pressure", "Pages, offers, and experiments that turn attention into behavior."]
+    "footerNav": [
+      "Who We Are",
+      "Services",
+      "Work",
+      "Contact"
     ],
-    reelEyebrow: "The Reel",
-    reelTitle: "Campaigns should move like luxury trailers.",
-    reel: [
-      ["Launch System", "Red Window Rollout"],
-      ["Social Heat", "Scroll Shock"],
-      ["Growth Engine", "The Second Look"],
-      ["Brand Film", "Market Pulse"],
-      ["Creator World", "Signal Rituals"]
+    "ctaNav": "Request consultation",
+    "menuTitle": "Open menu",
+    "heroEyebrow": "Riyadh / Cairo / GCC & MENA",
+    "heroTitle": "We engineer the second<br>We decode culture,<br><p class=\"eye-word mt-5\" data-keep-split>l<span class=\"word-eyes inline-flex -translate-y-8 align-middle\" aria-label=\"oo\"><span class=\"sr-only\">oo</span><span class=\"word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white\"><span class=\"h-3 w-3 rounded-full bg-red-500\"></span></span><span class=\"word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white\"><span class=\"h-3 w-3 rounded-full bg-red-500\"></span></span></span>k.</p>",
+    "heroLede": "An independent bilingual 360 marketing agency rooted in Saudi Arabia and Egypt, built for brands that need cultural fluency, performance discipline, and speed.",
+    "heroPrimary": "Request a consultation",
+    "heroSecondary": "Explore services",
+    "consoleTop": "Regional edge index",
+    "consoleFooter": [
+      "Saudi insight",
+      "Egyptian talent",
+      "GCC reach"
     ],
-    proof: [
-      "average launch lift across premium sprint campaigns",
-      "mapped impressions across paid and social experiments",
-      "\"Double Eyes made the brand feel more expensive, more alive, and easier to buy from.\"",
-      "Founder, luxury consumer brand"
+    "marquee": [
+      "Arabic-native strategy",
+      "Paid media",
+      "Social management",
+      "Influencer marketing",
+      "SEO",
+      "Brand identity",
+      "Web development",
+      "PR & activation"
     ],
-    contact: {
-      eyebrow: "Open the brief",
-      title: "Let's build the thing your market cannot ignore.",
-      body: "Drop a note. We respond fast - usually within a single business day.",
-      location: "Remote · EU / NA",
-      badge: "We reply in 24h",
-      formTitle: "Send a signal",
-      formBody: "Let's create something unforgettable",
-      labels: ["Full name", "Email address", "Company name", "Project type", "Tell us about your brand", "How did you find us?"],
-      placeholders: ["John Doe", "hello@company.com", "Your brand name", "What challenge are you facing? What's your vision?"],
-      projects: ["Brand system", "Launch campaign", "Paid growth", "Web & funnels", "Other"],
-      sources: ["Google / Search", "Instagram", "LinkedIn", "Referral", "Podcast / Blog", "Other"],
-      submit: "Send the signal ->",
-      safe: "Your info is safe",
-      reply: "Reply within 24h"
+    "directorEyebrow": "Who We Are",
+    "directorTitle": "One agency. Two markets. Every edge.",
+    "panels": [
+      [
+        "Saudi + Egypt Roots",
+        "We grew up in the markets we serve.",
+        "Our team combines Riyadh market rigour with Cairo creative energy, giving brands insight from both sides of the Red Sea."
+      ],
+      [
+        "Arabic-Native First",
+        "Strategy is not translated into Arabic. It starts there.",
+        "Creative, copy, community, and media buying are shaped around how Arabic-speaking consumers behave, speak, and buy."
+      ],
+      [
+        "Performance Discipline",
+        "Every campaign is accountable to business outcomes.",
+        "ROAS, CPL, conversion rate, pipeline value, and lead quality shape how we plan, report, and optimize."
+      ],
+      [
+        "360 Partner",
+        "Strategy, creative, media, web, PR, and activation under one roof.",
+        "We connect every service to a single question: is this moving the business forward?"
+      ]
+    ],
+    "collisionWord": "RIYADH / CAIRO",
+    "collisionEyebrow": "Our Advantage",
+    "collisionTitle": "Cultural intelligence, performance transparency, and real access for ambitious brands.",
+    "collisionCard": [
+      "regional fluency",
+      "Built for Saudi SMEs, international brands entering the Kingdom, and Egyptian companies expanding across MENA."
+    ],
+    "systemEyebrow": "What We Do",
+    "systemTitle": "A complete service suite under one strategic roof.",
+    "bento": [
+      [
+        "Digital / Social",
+        "End-to-end social media management across Instagram, Snapchat, TikTok, X, YouTube, and LinkedIn in Arabic and English."
+      ],
+      [
+        "Branding",
+        "Brand strategy, positioning, visual identity, Arabic typography, messaging, and guidelines."
+      ],
+      [
+        "Production",
+        "Photo, video, reels, motion graphics, design, and bilingual copy ready for every platform."
+      ],
+      [
+        "Performance / Paid Media",
+        "Google, Meta, Snapchat, TikTok, programmatic, ROAS tracking, and real-time budget optimization."
+      ],
+      [
+        "SEO",
+        "Technical audits, Arabic keyword research, on-page optimization, content strategy, and link building."
+      ],
+      [
+        "Web",
+        "Mobile-first, bilingual-ready websites, landing pages, e-commerce, SEO architecture, and CRO."
+      ],
+      [
+        "Strategy / Analytics",
+        "Brand audits, competitor analysis, 360 roadmaps, AI-powered dashboards, live reporting, and KPI frameworks."
+      ]
+    ],
+    "reelEyebrow": "How We Work",
+    "reelTitle": "Market entry. Launch. Scale.",
+    "reel": [
+      [
+        "Discovery",
+        "Business goals, audience, competitors, current performance, brand audit, and structured questionnaire."
+      ],
+      [
+        "Strategy",
+        "360 marketing strategy, content pillars, channel plan, KPI roadmap, and budget framework."
+      ],
+      [
+        "Production",
+        "Creative assets, copy, video, and campaign setup reviewed and approved before launch."
+      ],
+      [
+        "Launch & Optimize",
+        "Real-time tracking, media optimization, engagement analysis, lead quality checks, and creative refresh cycles."
+      ],
+      [
+        "Report & Scale",
+        "Weekly reports, monthly strategy reviews, dashboard access, scaling what works and cutting what does not."
+      ]
+    ],
+    "proof": [
+      "core markets: Saudi Arabia and Egypt",
+      "regional reach across GCC and wider MENA",
+      "\"We do not just run campaigns. We decode culture, engineer performance, and build brands that mean something.\"",
+      "Double Eyes company profile"
+    ],
+    "contact": {
+      "eyebrow": "Request a free consultation",
+      "title": "Let's build something that matters.",
+      "body": "Whether you're launching in Saudi Arabia, scaling in Egypt, or entering the wider MENA region, start with a conversation.",
+      "location": "Riyadh / Cairo / GCC & MENA",
+      "badge": "We reply within 24h",
+      "formTitle": "Send the brief",
+      "formBody": "Tell us where the brand is going next",
+      "labels": [
+        "Full name",
+        "Email address",
+        "Company name",
+        "Project type",
+        "Tell us about your brand",
+        "How did you find us?"
+      ],
+      "placeholders": [
+        "Your name",
+        "hello@company.com",
+        "Your brand name",
+        "What market are you entering, scaling, or fixing?"
+      ],
+      "projects": [
+        "360 marketing strategy",
+        "Social media management",
+        "Paid media & performance",
+        "Branding & visual identity",
+        "Website / e-commerce",
+        "Influencer / PR / activation",
+        "Content production",
+        "Other"
+      ],
+      "sources": [
+        "Google / Search",
+        "Instagram",
+        "LinkedIn",
+        "Referral",
+        "Event / Network",
+        "Other"
+      ],
+      "submit": "Request consultation ->",
+      "safe": "Your info is safe",
+      "reply": "Reply within 24h"
     },
-    footer: {
-      body: "Premium marketing systems for brands built to be seen twice: once by culture, once by revenue.",
-      open: "Open signal",
-      start: "Start a brief",
-      bottom: "Brand sight / Performance heat / Creative impact"
+    "footer": {
+      "body": "Bilingual 360 marketing for brands built to win Saudi Arabia, Egypt, and the wider MENA region.",
+      "open": "Start the conversation",
+      "start": "Request consultation",
+      "bottom": "Riyadh / Cairo / GCC & MENA / Bilingual 360 marketing"
     },
-    formMessages: {
-      sending: "Sending...",
-      receivedPrefix: "Signal received. We will map the first route for",
-      invalidName: "Please enter your name.",
-      invalidEmail: "Please enter a valid email.",
-      invalidMessage: "Tell us a little more (10+ chars).",
-      success: "Signal received. We'll be in touch within a business day.",
-      error: "Something jammed the signal. Try again or email hello@doubleeyes.agency."
+    "formMessages": {
+      "sending": "Sending...",
+      "receivedPrefix": "Signal received. We will map the first route for",
+      "invalidName": "Please enter your name.",
+      "invalidEmail": "Please enter a valid email.",
+      "invalidMessage": "Tell us a little more (10+ chars).",
+      "success": "Brief received. We'll be in touch within a business day.",
+      "error": "Something jammed the signal. Try again or email hello@doubleeyes.agency."
     }
   },
-  ar: {
-    title: "دبل آيز | وكالة تسويق تصنع الانتباه",
-    description: "دبل آيز وكالة تسويق تبني حضورا واضحا للعلامات عبر الهوية، المحتوى، الإعلانات، ومسارات التحويل.",
-    nav: ["المنهج", "الخدمات", "أعمالنا", "تواصل"],
-    footerNav: ["المنهج", "الخدمات", "أعمالنا", "تواصل"],
-    ctaNav: "ابدأ مشروعك",
-    menuTitle: "فتح القائمة",
-    heroEyebrow: "استوديو صناعة الانتباه",
-    heroTitle: heroTitleHtml.ar,
-    heroLede: "نحوّل العلامات إلى حضور بصري مؤثر يجمع القصة، المحتوى، والإعلانات في نظام واحد يقود النمو.",
-    heroPrimary: "ابدأ الآن",
-    heroSecondary: "شاهد أعمالنا",
-    consoleTop: "مؤشر التفاعل الآن",
-    consoleFooter: ["نبض الجمهور", "تركيز الإعلان", "جاهزية التحويل"],
-    marquee: ["هوية لا تُنسى", "إعلانات تحقق نتائج", "إطلاقات مؤثرة", "محتوى يعلق بالذهن", "صفحات تحول الزوار", "حملات صناع المحتوى", "قراءة دقيقة للسوق"],
-    directorEyebrow: "لوحة القرار",
-    directorTitle: "نختار الزاوية التي تجعل الحملة أوضح وأقوى.",
-    panels: [
-      ["زاوية السوق", "نصل إلى الفكرة التي تحرك قرار العميل.", "نقرأ الجمهور والمنافسين ونحول الرؤية إلى خطة قابلة للتنفيذ."],
-      ["العالم البصري", "نبني صورة تجعل العلامة أغلى وأوضح.", "هوية، صور، حركة، ومحتوى يعيشون داخل أسلوب واحد."],
-      ["اختبار الأداء", "لا نترك الجمال وحده؛ نربطه بالأرقام.", "نختبر الرسائل والإعلانات والصفحات حتى تتحسن النتائج."],
-      ["حركة السوشيال", "نجعل الناس يشعرون أن العلامة قريبة منهم.", "أفكار قابلة للمشاركة، زوايا صناع محتوى، ولحظات تصلح للخلاصة."]
+  "ar": {
+    "title": "Double Eyes | Arabic-Native 360 Marketing Agency",
+    "description": "Double Eyes is Arabic-native, bilingual 360 marketing agency rooted in Saudi Arabia and Egypt.",
+    "nav": [
+      "Who We Are",
+      "Services",
+      "Work",
+      "Contact"
     ],
-    collisionWord: "تُرى مرتين",
-    collisionEyebrow: "التقاء الفكرة بالأداء",
-    collisionTitle: "لا نصنع شكلا جميلا فقط؛ نصنع انتباها يتحول إلى طلب.",
-    collisionCard: ["قوة الحضور", "تترسخ العلامة عندما تتكلم القصة، الصورة، والإعلان بلغة واحدة."],
-    systemEyebrow: "طريقة العمل",
-    systemTitle: "منظومة كاملة تجذب الانتباه وتحوله.",
-    bento: [
-      ["01 / فهم الجمهور", "نقرأ السوق لنحدد أين يوجد الانتباه وما الذي يدفعه للحركة."],
-      ["الهوية", "علامة واضحة يسهل تذكرها والحديث عنها."],
-      ["المحتوى", "أفكار وصور تجعل الظهور اليومي أقوى."],
-      ["02 / نظام بصري", "هوية وحركة ورسائل جاهزة للإطلاق."],
-      ["الإعلانات", "نضع الميزانية في الأماكن التي تصنع أثرا."],
-      ["مسارات التحويل", "نحول الاهتمام إلى تواصل وشراء."],
-      ["03 / تحسين مستمر", "صفحات وعروض وتجارب تكبر مع البيانات."]
+    "footerNav": [
+      "Who We Are",
+      "Services",
+      "Work",
+      "Contact"
     ],
-    reelEyebrow: "نماذج من العمل",
-    reelTitle: "نصمم حملات لها إيقاع وتترك أثرا.",
-    reel: [
-      ["إطلاق علامة", "النافذة الحمراء"],
-      ["حضور اجتماعي", "لحظة توقف التمرير"],
-      ["محرك نمو", "النظرة التي تعود"],
-      ["فيلم علامة", "نبض السوق"],
-      ["صناع المحتوى", "طقوس الانتشار"]
+    "ctaNav": "Request consultation",
+    "menuTitle": "Open menu",
+    "heroEyebrow": "Riyadh / Cairo / GCC & MENA",
+    "heroTitle": "We engineer the second<br>We decode culture,<br><p class=\"eye-word mt-5\" data-keep-split>l<span class=\"word-eyes inline-flex -translate-y-8 align-middle\" aria-label=\"oo\"><span class=\"sr-only\">oo</span><span class=\"word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white\"><span class=\"h-3 w-3 rounded-full bg-red-500\"></span></span><span class=\"word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white\"><span class=\"h-3 w-3 rounded-full bg-red-500\"></span></span></span>k.</p>",
+    "heroLede": "An independent bilingual 360 marketing agency rooted in Saudi Arabia and Egypt, built for brands that need cultural fluency, performance discipline, and speed.",
+    "heroPrimary": "Request a consultation",
+    "heroSecondary": "Explore services",
+    "consoleTop": "Regional edge index",
+    "consoleFooter": [
+      "Saudi insight",
+      "Egyptian talent",
+      "GCC reach"
     ],
-    proof: [
-      "نمو متوسط في نتائج الإطلاق للحملات المكثفة",
-      "انطباعات وصلنا إليها عبر الإعلانات والسوشيال",
-      "\"دبل آيز جعلت العلامة أوضح، أرقى، وأسهل في البيع.\"",
-      "مؤسس علامة استهلاكية فاخرة"
+    "marquee": [
+      "Arabic-native strategy",
+      "Paid media",
+      "Social management",
+      "Influencer marketing",
+      "SEO",
+      "Brand identity",
+      "Web development",
+      "PR & activation"
     ],
-    contact: {
-      eyebrow: "ابدأ الحديث",
-      title: "لنبن حضورا لا يستطيع جمهورك تجاهله.",
-      body: "اكتب لنا الفكرة أو التحدي، وسنعود إليك بخطوة واضحة خلال يوم عمل.",
-      location: "نعمل عن بعد · أوروبا / أمريكا الشمالية",
-      badge: "نرد خلال 24 ساعة",
-      formTitle: "أخبرنا عن مشروعك",
-      formBody: "لنصنع شيئا يليق بعلامتك",
-      labels: ["الاسم", "البريد الإلكتروني", "اسم الشركة", "نوع المشروع", "ما الذي تريد بناءه؟", "كيف وصلت إلينا؟"],
-      placeholders: ["اكتب اسمك", "hello@company.com", "اسم علامتك", "احك لنا عن الهدف، المشكلة، أو الفكرة."],
-      projects: ["هوية علامة", "حملة إطلاق", "إعلانات ونمو", "موقع ومسارات بيع", "شيء آخر"],
-      sources: ["بحث جوجل", "إنستغرام", "لينكدإن", "ترشيح من صديق", "بودكاست / مدونة", "مصدر آخر"],
-      submit: "أرسل الطلب ->",
-      safe: "بياناتك محفوظة",
-      reply: "الرد خلال 24 ساعة"
+    "directorEyebrow": "Who We Are",
+    "directorTitle": "One agency. Two markets. Every edge.",
+    "panels": [
+      [
+        "Saudi + Egypt Roots",
+        "We grew up in the markets we serve.",
+        "Our team combines Riyadh market rigour with Cairo creative energy, giving brands insight from both sides of the Red Sea."
+      ],
+      [
+        "Arabic-Native First",
+        "Strategy is not translated into Arabic. It starts there.",
+        "Creative, copy, community, and media buying are shaped around how Arabic-speaking consumers behave, speak, and buy."
+      ],
+      [
+        "Performance Discipline",
+        "Every campaign is accountable to business outcomes.",
+        "ROAS, CPL, conversion rate, pipeline value, and lead quality shape how we plan, report, and optimize."
+      ],
+      [
+        "360 Partner",
+        "Strategy, creative, media, web, PR, and activation under one roof.",
+        "We connect every service to a single question: is this moving the business forward?"
+      ]
+    ],
+    "collisionWord": "RIYADH / CAIRO",
+    "collisionEyebrow": "Our Advantage",
+    "collisionTitle": "Cultural intelligence, performance transparency, and real access for ambitious brands.",
+    "collisionCard": [
+      "regional fluency",
+      "Built for Saudi SMEs, international brands entering the Kingdom, and Egyptian companies expanding across MENA."
+    ],
+    "systemEyebrow": "What We Do",
+    "systemTitle": "A complete service suite under one strategic roof.",
+    "bento": [
+      [
+        "Digital / Social",
+        "End-to-end social media management across Instagram, Snapchat, TikTok, X, YouTube, and LinkedIn in Arabic and English."
+      ],
+      [
+        "Branding",
+        "Brand strategy, positioning, visual identity, Arabic typography, messaging, and guidelines."
+      ],
+      [
+        "Production",
+        "Photo, video, reels, motion graphics, design, and bilingual copy ready for every platform."
+      ],
+      [
+        "Performance / Paid Media",
+        "Google, Meta, Snapchat, TikTok, programmatic, ROAS tracking, and real-time budget optimization."
+      ],
+      [
+        "SEO",
+        "Technical audits, Arabic keyword research, on-page optimization, content strategy, and link building."
+      ],
+      [
+        "Web",
+        "Mobile-first, bilingual-ready websites, landing pages, e-commerce, SEO architecture, and CRO."
+      ],
+      [
+        "Strategy / Analytics",
+        "Brand audits, competitor analysis, 360 roadmaps, AI-powered dashboards, live reporting, and KPI frameworks."
+      ]
+    ],
+    "reelEyebrow": "How We Work",
+    "reelTitle": "Market entry. Launch. Scale.",
+    "reel": [
+      [
+        "Discovery",
+        "Business goals, audience, competitors, current performance, brand audit, and structured questionnaire."
+      ],
+      [
+        "Strategy",
+        "360 marketing strategy, content pillars, channel plan, KPI roadmap, and budget framework."
+      ],
+      [
+        "Production",
+        "Creative assets, copy, video, and campaign setup reviewed and approved before launch."
+      ],
+      [
+        "Launch & Optimize",
+        "Real-time tracking, media optimization, engagement analysis, lead quality checks, and creative refresh cycles."
+      ],
+      [
+        "Report & Scale",
+        "Weekly reports, monthly strategy reviews, dashboard access, scaling what works and cutting what does not."
+      ]
+    ],
+    "proof": [
+      "core markets: Saudi Arabia and Egypt",
+      "regional reach across GCC and wider MENA",
+      "\"We do not just run campaigns. We decode culture, engineer performance, and build brands that mean something.\"",
+      "Double Eyes company profile"
+    ],
+    "contact": {
+      "eyebrow": "Request a free consultation",
+      "title": "Let's build something that matters.",
+      "body": "Whether you're launching in Saudi Arabia, scaling in Egypt, or entering the wider MENA region, start with a conversation.",
+      "location": "Riyadh / Cairo / GCC & MENA",
+      "badge": "We reply within 24h",
+      "formTitle": "Send the brief",
+      "formBody": "Tell us where the brand is going next",
+      "labels": [
+        "Full name",
+        "Email address",
+        "Company name",
+        "Project type",
+        "Tell us about your brand",
+        "How did you find us?"
+      ],
+      "placeholders": [
+        "Your name",
+        "hello@company.com",
+        "Your brand name",
+        "What market are you entering, scaling, or fixing?"
+      ],
+      "projects": [
+        "360 marketing strategy",
+        "Social media management",
+        "Paid media & performance",
+        "Branding & visual identity",
+        "Website / e-commerce",
+        "Influencer / PR / activation",
+        "Content production",
+        "Other"
+      ],
+      "sources": [
+        "Google / Search",
+        "Instagram",
+        "LinkedIn",
+        "Referral",
+        "Event / Network",
+        "Other"
+      ],
+      "submit": "Request consultation ->",
+      "safe": "Your info is safe",
+      "reply": "Reply within 24h"
     },
-    footer: {
-      body: "نصنع أنظمة تسويق تجعل العلامة تُرى، تُفهم، وتتحول إلى نمو.",
-      open: "تواصل مفتوح",
-      start: "ابدأ مشروعك",
-      bottom: "هوية واضحة / أداء أقوى / أثر إبداعي"
+    "footer": {
+      "body": "Bilingual 360 marketing for brands built to win Saudi Arabia, Egypt, and the wider MENA region.",
+      "open": "Start the conversation",
+      "start": "Request consultation",
+      "bottom": "Riyadh / Cairo / GCC & MENA / Bilingual 360 marketing"
     },
-    formMessages: {
-      sending: "جار الإرسال...",
-      receivedPrefix: "وصل طلبك. سنرسل أول خطوة إلى",
-      invalidName: "اكتب اسمك من فضلك.",
-      invalidEmail: "اكتب بريدا إلكترونيا صحيحا.",
-      invalidMessage: "نحتاج تفاصيل أكثر قليلا (10 أحرف على الأقل).",
-      success: "وصل طلبك. سنتواصل معك خلال يوم عمل.",
-      error: "لم يصل الطلب. حاول مرة أخرى أو راسل hello@doubleeyes.agency."
+    "formMessages": {
+      "sending": "Sending...",
+      "receivedPrefix": "Signal received. We will map the first route for",
+      "invalidName": "Please enter your name.",
+      "invalidEmail": "Please enter a valid email.",
+      "invalidMessage": "Tell us a little more (10+ chars).",
+      "success": "Brief received. We'll be in touch within a business day.",
+      "error": "Something jammed the signal. Try again or email hello@doubleeyes.agency."
     }
+  }
+};
+
+translations.en.processBody = "Every engagement moves through a clear rhythm: diagnose the market, build the system, launch with live data, then scale what proves itself.";
+translations.en.market = {
+  eyebrow: "Two Markets",
+  title: "Cairo creative energy. Riyadh market rigour.",
+  body: "Double Eyes was built by people from both sides of the Red Sea, so brands get cultural instinct and commercial discipline in the same room.",
+  cards: [
+    ["Saudi Arabia", "Riyadh", "Market entry, SME scale, Saudi consumer moments, and GCAM-aware influencer execution."],
+    ["Egypt", "Cairo", "Creative production, Arabic copy, social velocity, and regional expansion support."],
+    ["Reach", "GCC + MENA", "Campaign systems designed for bilingual audiences and cross-market growth."]
+  ]
+};
+translations.en.credentials = {
+  eyebrow: "Built For Trust",
+  title: "Transparent, compliant, and obsessed with measurable growth.",
+  cards: [
+    ["AI-powered reporting", "Live dashboards, weekly performance reads, monthly strategy reviews, and clear optimization decisions."],
+    ["GCAM compliance", "Influencer campaigns are planned with Saudi licensing requirements and brand safety in mind."],
+    ["ROI-first methodology", "Every campaign starts with KPIs tied to leads, revenue, ROAS, pipeline quality, or growth."],
+    ["Bilingual native team", "Strategists, creatives, and account leads move between Arabic and English without losing nuance."]
+  ]
+};
+
+translations.ar = {
+  title: "دبل آيز | وكالة تسويق 360 ثنائية اللغة",
+  description: "دبل آيز وكالة تسويق 360 مستقلة وثنائية اللغة، جذورها في السعودية ومصر وتخدم العلامات الطموحة في الخليج والشرق الأوسط.",
+  nav: ["من نحن", "الخدمات", "طريقة العمل", "تواصل"],
+  footerNav: ["من نحن", "الخدمات", "طريقة العمل", "تواصل"],
+  ctaNav: "اطلب استشارة",
+  menuTitle: "فتح القائمة",
+  heroEyebrow: "الرياض / القاهرة / الخليج والشرق الأوسط",
+  heroTitle: "نصنع النظرة الثانية<br>ونفك شفرة الثقافة",
+  heroLede: "وكالة تسويق 360 مستقلة وثنائية اللغة، جذورها في السعودية ومصر، مصممة للعلامات التي تحتاج فهما ثقافيا وأداء قابلا للقياس وسرعة في التنفيذ.",
+  heroPrimary: "اطلب استشارة",
+  heroSecondary: "استكشف الخدمات",
+  consoleTop: "مؤشر القوة الإقليمية",
+  consoleFooter: ["فهم سعودي", "موهبة مصرية", "انتشار خليجي"],
+  marquee: ["استراتيجية عربية أصيلة", "إعلانات مدفوعة", "إدارة السوشيال", "تسويق مؤثرين", "SEO", "هوية بصرية", "مواقع إلكترونية", "علاقات عامة وتفعيل"],
+  directorEyebrow: "من نحن",
+  directorTitle: "وكالة واحدة. سوقان. كل ميزة.",
+  panels: [
+    ["جذور سعودية ومصرية", "نحن من الأسواق التي نخدمها.", "نجمع بين صرامة سوق الرياض وطاقة القاهرة الإبداعية لفهم العلامات من جانبي البحر الأحمر."],
+    ["العربية أولا", "لا نترجم الاستراتيجية إلى العربية، بل نبدأ منها.", "الإبداع والنسخ وإدارة المجتمع وشراء الإعلام مبنية على سلوك المستهلك العربي فعليا."],
+    ["هوس بالأداء", "كل حملة مرتبطة بنتائج تجارية واضحة.", "ROAS وCPL والتحويل وقيمة الفرص وجودة العملاء المحتملين توجه التخطيط والتحسين."],
+    ["شريك 360", "استراتيجية وإبداع وإعلام ومواقع وعلاقات عامة وتفعيل تحت سقف واحد.", "نربط كل خدمة بسؤال واحد: هل تحرك هذه الخطوة العمل إلى الأمام؟"]
+  ],
+  collisionWord: "الرياض / القاهرة",
+  collisionEyebrow: "ميزتنا",
+  collisionTitle: "ذكاء ثقافي، شفافية في الأداء، وسهولة وصول للعلامات الطموحة.",
+  collisionCard: ["طلاقة إقليمية", "مصممون للشركات السعودية الطموحة، والعلامات العالمية الداخلة إلى المملكة، والشركات المصرية المتوسعة في المنطقة."],
+  systemEyebrow: "ماذا نقدم",
+  systemTitle: "خدمات متكاملة تحت سقف استراتيجي واحد.",
+  bento: [
+    ["السوشيال", "إدارة كاملة لحضور العلامة على إنستغرام وسناب وتيك توك وX ويوتيوب ولينكدإن بالعربية والإنجليزية."],
+    ["الهوية", "استراتيجية علامة، تموضع، هوية بصرية، خط عربي، نبرة ورسائل وإرشادات."],
+    ["الإنتاج", "تصوير وفيديو وريلز وموشن وتصميم وكتابة ثنائية اللغة جاهزة لكل منصة."],
+    ["الإعلانات", "Google وMeta وسناب وتيك توك وبرمجة إعلانية وتتبع ROAS وتحسين مباشر للميزانية."],
+    ["SEO", "تدقيق تقني، بحث كلمات عربية، تحسين صفحات، استراتيجية محتوى، وبناء روابط."],
+    ["المواقع", "مواقع وصفحات هبوط ومتاجر جاهزة للموبايل واللغتين ومحسنة للبحث والتحويل."],
+    ["الاستراتيجية والتحليلات", "تدقيق علامة ومنافسين، خارطة 360، لوحات AI، تقارير مباشرة، وأطر KPI."]
+  ],
+  reelEyebrow: "طريقة العمل",
+  reelTitle: "دخول السوق. الإطلاق. التوسع.",
+  processBody: "كل مشروع يتحرك بإيقاع واضح: نفهم السوق، نبني النظام، نطلق ببيانات مباشرة، ثم نوسع ما يثبت نجاحه.",
+  reel: [
+    ["الاكتشاف", "أهداف العمل والجمهور والمنافسون والأداء الحالي وتدقيق العلامة والاستبيان."],
+    ["الاستراتيجية", "خطة تسويق 360 ومحاور محتوى ومزيج قنوات وخارطة مؤشرات وإطار ميزانية."],
+    ["الإنتاج", "أصول إبداعية ونسخ عربية وإنجليزية وفيديو وإعداد حملات وسير موافقات قبل الإطلاق."],
+    ["الإطلاق والتحسين", "تتبع مباشر وتحسين إعلامي وتحليل تفاعل وجودة العملاء وتحديثات إبداعية."],
+    ["التقرير والتوسع", "تقارير أسبوعية ومراجعات شهرية ولوحات متابعة وقرارات واضحة حول ما يتوسع وما يتوقف."]
+  ],
+  market: {
+    eyebrow: "سوقان",
+    title: "طاقة القاهرة الإبداعية. صرامة سوق الرياض.",
+    body: "دبل آيز بنيت بواسطة أشخاص من جانبي البحر الأحمر، لذلك تحصل العلامات على حس ثقافي وانضباط تجاري في غرفة واحدة.",
+    cards: [
+      ["السعودية", "الرياض", "دخول السوق، توسع الشركات الطموحة، مواسم المستهلك السعودي، وتنفيذ مؤثرين واعي بمتطلبات GCAM."],
+      ["مصر", "القاهرة", "إنتاج إبداعي، كتابة عربية، سرعة اجتماعية، ودعم للتوسع الإقليمي."],
+      ["الانتشار", "الخليج والشرق الأوسط", "أنظمة حملات مصممة لجمهور ثنائي اللغة ونمو عابر للأسواق."]
+    ]
+  },
+  credentials: {
+    eyebrow: "مبني للثقة",
+    title: "شفافية، امتثال، وهوس بالنمو القابل للقياس.",
+    cards: [
+      ["تقارير مدعومة بالذكاء الاصطناعي", "لوحات مباشرة، قراءات أداء أسبوعية، مراجعات استراتيجية شهرية، وقرارات تحسين واضحة."],
+      ["امتثال GCAM", "حملات المؤثرين تخطط مع مراعاة متطلبات الترخيص السعودية وسلامة العلامة."],
+      ["منهجية ROI أولا", "كل حملة تبدأ بمؤشرات مرتبطة بالعمل: العملاء المحتملون، الإيراد، ROAS، جودة الفرص، أو النمو."],
+      ["فريق ثنائي اللغة", "الاستراتيجيون والمبدعون ومديرو الحسابات ينتقلون بين العربية والإنجليزية دون فقدان المعنى."]
+    ]
+  },
+  proof: [
+    "سوقان أساسيان: السعودية ومصر",
+    "انتشار إقليمي في الخليج والشرق الأوسط",
+    "\"نحن لا ندير الحملات فقط. نفك شفرة الثقافة، نصمم الأداء، ونبني علامات لها معنى.\"",
+    "ملف شركة دبل آيز"
+  ],
+  contact: {
+    eyebrow: "اطلب استشارة مجانية",
+    title: "لنبن شيئا له معنى.",
+    body: "سواء كنت تطلق في السعودية، أو تتوسع في مصر، أو تدخل منطقة الشرق الأوسط، ابدأ بمحادثة.",
+    location: "الرياض / القاهرة / الخليج والشرق الأوسط",
+    badge: "نرد خلال 24 ساعة",
+    formTitle: "أرسل الملخص",
+    formBody: "أخبرنا إلى أين تتجه العلامة",
+    labels: ["الاسم الكامل", "البريد الإلكتروني", "اسم الشركة", "نوع المشروع", "حدثنا عن علامتك", "كيف وصلت إلينا؟"],
+    placeholders: ["اسمك", "hello@company.com", "اسم علامتك", "أي سوق تريد دخوله أو توسيعه أو تحسينه؟"],
+    projects: ["استراتيجية تسويق 360", "إدارة السوشيال", "إعلانات وأداء", "هوية بصرية", "موقع / متجر إلكتروني", "مؤثرون / علاقات عامة / تفعيل", "إنتاج محتوى", "أخرى"],
+    sources: ["بحث جوجل", "إنستغرام", "لينكدإن", "ترشيح", "فعالية / شبكة علاقات", "أخرى"],
+    submit: "اطلب الاستشارة ->",
+    safe: "بياناتك محفوظة",
+    reply: "الرد خلال 24 ساعة"
+  },
+  footer: {
+    body: "تسويق 360 ثنائي اللغة للعلامات التي تريد الفوز في السعودية ومصر والشرق الأوسط.",
+    open: "ابدأ المحادثة",
+    start: "اطلب استشارة",
+    bottom: "الرياض / القاهرة / الخليج والشرق الأوسط / تسويق 360 ثنائي اللغة"
+  },
+  formMessages: {
+    sending: "جار الإرسال...",
+    receivedPrefix: "وصل الطلب. سنرسم أول خطوة إلى",
+    invalidName: "اكتب اسمك من فضلك.",
+    invalidEmail: "اكتب بريدا صحيحا.",
+    invalidMessage: "نحتاج تفاصيل أكثر قليلا (10 أحرف على الأقل).",
+    success: "وصل الملخص. سنتواصل خلال يوم عمل.",
+    error: "لم يصل الطلب. حاول مرة أخرى أو راسل hello@doubleeyes.agency."
   }
 };
 
@@ -334,12 +675,37 @@ const applyTranslations = (language = currentLanguage) => {
   });
   text(".reel-head .eyebrow", copy.reelEyebrow);
   text(".reel-head .section-title", copy.reelTitle);
-  qsa('.cinema-card:not([aria-hidden="true"])').forEach((card, index) => {
-    const cardCopy = copy.reel[index];
-    if (!cardCopy) return;
-    text("span", cardCopy[0], card);
-    text("h3", cardCopy[1], card);
+  text(".process-head .eyebrow", copy.reelEyebrow);
+  text(".process-head .section-title", copy.reelTitle);
+  text(".process-head p:not(.eyebrow)", copy.processBody);
+  qsa("[data-process-step]").forEach((step, index) => {
+    const stepCopy = copy.reel[index];
+    if (!stepCopy) return;
+    text("h3", stepCopy[0], step);
+    text("p", stepCopy[1], step);
   });
+  if (copy.market) {
+    text(".market-copy .eyebrow", copy.market.eyebrow);
+    text(".market-copy .section-title", copy.market.title);
+    text(".market-copy p:not(.eyebrow)", copy.market.body);
+    qsa(".market-map article").forEach((card, index) => {
+      const cardCopy = copy.market.cards[index];
+      if (!cardCopy) return;
+      text("span", cardCopy[0], card);
+      text("strong", cardCopy[1], card);
+      text("p", cardCopy[2], card);
+    });
+  }
+  if (copy.credentials) {
+    text(".credentials-head .eyebrow", copy.credentials.eyebrow);
+    text(".credentials-head .section-title", copy.credentials.title);
+    qsa(".credential-card").forEach((card, index) => {
+      const cardCopy = copy.credentials.cards[index];
+      if (!cardCopy) return;
+      text("h3", cardCopy[0], card);
+      text("p", cardCopy[1], card);
+    });
+  }
   const proofPanels = qsa(".proof-panel");
   text("p", copy.proof[0], proofPanels[0]);
   text("p", copy.proof[1], proofPanels[1]);
@@ -929,33 +1295,41 @@ const setupParallax = () => {
 
 const setupForm = () => {
   const form = qs("#contactForm");
-  const note = qs("#formNote");
+  const note = qs("#formStatus");
   const button = qs("button", form);
-  if (!form || !note) return;
-
-  // Initialize EmailJS. Replace 'YOUR_PUBLIC_KEY' with your actual key.
-  if (window.emailjs) {
-    // window.emailjs.init("YOUR_PUBLIC_KEY");
-  }
+  if (!form || !note || !button) return;
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    const email = String(new FormData(form).get("email") || "").trim();
-    if (!email) return;
+    const data = Object.fromEntries(new FormData(form).entries());
+    const messages = translations[currentLanguage].formMessages;
+    note.textContent = "";
 
-    if (button) {
-      const originalHtml = button.innerHTML;
-      button.innerHTML = `<i data-lucide="loader"></i> ${translations[currentLanguage].formMessages.sending}`;
-      if (window.lucide) window.lucide.createIcons();
-
-      // EmailJS logic goes here...
-      setTimeout(() => {
-        note.textContent = `${translations[currentLanguage].formMessages.receivedPrefix} ${email}.`;
-        form.reset();
-        button.innerHTML = originalHtml;
-        if (window.lucide) window.lucide.createIcons();
-      }, 1500);
+    if (!data.name || String(data.name).trim().length < 2) {
+      note.textContent = messages.invalidName;
+      return;
     }
+    if (!/^\S+@\S+\.\S+$/.test(String(data.email || "").trim())) {
+      note.textContent = messages.invalidEmail;
+      return;
+    }
+    if (!data.message || String(data.message).trim().length < 10) {
+      note.textContent = messages.invalidMessage;
+      return;
+    }
+
+    const originalHtml = button.innerHTML;
+    button.disabled = true;
+    button.innerHTML = `<i data-lucide="loader"></i> ${messages.sending}`;
+    if (window.lucide) window.lucide.createIcons();
+
+    setTimeout(() => {
+      note.textContent = messages.success;
+      form.reset();
+      button.disabled = false;
+      button.innerHTML = originalHtml;
+      if (window.lucide) window.lucide.createIcons();
+    }, 700);
   });
 };
 
@@ -1004,56 +1378,5 @@ const start = async () => {
     boot();
   }
 };
-
-/* contact form */
-function initContactForm() {
-  const form = document.getElementById("contactForm");
-  const status = document.getElementById("formStatus");
-  if (!form) return;
-
-  if (window.emailjs && EMAILJS_PUBLIC_KEY && !EMAILJS_PUBLIC_KEY.startsWith("YOUR_")) {
-    emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
-  }
-
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    status.className = "form__status";
-    status.textContent = "";
-
-    const fd = new FormData(form);
-    const data = Object.fromEntries(fd.entries());
-    const messages = translations[currentLanguage].formMessages;
-    if (!data.name || data.name.length < 2) return fail(messages.invalidName);
-    if (!/^\S+@\S+\.\S+$/.test(data.email)) return fail(messages.invalidEmail);
-    if (!data.message || data.message.length < 10) return fail(messages.invalidMessage);
-
-    const btn = form.querySelector(".form__submit");
-    btn.setAttribute("disabled", "true");
-    btn.querySelector("span").textContent = messages.sending;
-
-    try {
-      if (!window.emailjs || EMAILJS_PUBLIC_KEY.startsWith("YOUR_")) {
-        await new Promise(r => setTimeout(r, 700));
-      } else {
-        await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, data);
-      }
-      status.className = "form__status ok";
-      status.textContent = messages.success;
-      form.reset();
-    } catch (err) {
-      console.error(err);
-      status.className = "form__status err";
-      status.textContent = messages.error;
-    } finally {
-      btn.removeAttribute("disabled");
-      btn.querySelector("span").textContent = translations[currentLanguage].contact.submit;
-    }
-
-    function fail(msg) {
-      status.className = "form__status err";
-      status.textContent = msg;
-    }
-  });
-}
 
 start();
