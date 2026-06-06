@@ -20,545 +20,393 @@ const qs = (selector, scope = document) => scope.querySelector(selector);
 const qsa = (selector, scope = document) => Array.from(scope.querySelectorAll(selector));
 
 const heroTitleHtml = {
-  en: `We engineer the second
+  en: `We decode culture.
+          <br>
+          Engineer performance.
           <br>
           <p class="eye-word mt-5" data-keep-split>
             l
-            <span class="word-eyes inline-flex  -translate-y-8 align-middle" aria-label="oo">
+            <span class="word-eyes inline-flex -translate-y-8 align-middle" aria-label="oo">
               <span class="sr-only">oo</span>
-
-              <!-- <span
-                class="word-eye relative inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white">
-                <span class="h-3 w-3 rounded-full bg-red-500"></span>
-              </span> -->
-
               <span
-                class="word-eye relative ml-1 inline-flex h-15 w-50  items-center justify-center rounded-full border-6 border-white">
+                class="word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white">
                 <span class="h-3 w-3 rounded-full bg-red-500"></span>
               </span>
               <span
-                class="word-eye relative ml-1 inline-flex h-15 w-50  items-center justify-center rounded-full border-6 border-white">
+                class="word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white">
                 <span class="h-3 w-3 rounded-full bg-red-500"></span>
               </span>
             </span>
             k.
           </p>`,
-  ar: `نصنع حضورا يلفت مرتين.`
+  ar: `نفك شفرة الثقافة.<br>ونصمم الأداء.<br>ونبني علامات لها معنى.`
 };
 
 const translations = {
-  "en": {
-    "title": "Double Eyes | Bilingual 360 Marketing Agency",
-    "description": "Double Eyes is an independent bilingual 360 marketing agency rooted in Saudi Arabia and Egypt, serving ambitious brands across the GCC and MENA.",
-    "nav": [
-      "Who We Are",
-      "Services",
-      "Work",
-      "Contact"
-    ],
-    "footerNav": [
-      "Who We Are",
-      "Services",
-      "Work",
-      "Contact"
-    ],
-    "ctaNav": "Request consultation",
-    "menuTitle": "Open menu",
-    "heroEyebrow": "Riyadh / Cairo / GCC & MENA",
-    "heroTitle": "We engineer the second<br>We decode culture,<br><p class=\"eye-word mt-5\" data-keep-split>l<span class=\"word-eyes inline-flex -translate-y-8 align-middle\" aria-label=\"oo\"><span class=\"sr-only\">oo</span><span class=\"word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white\"><span class=\"h-3 w-3 rounded-full bg-red-500\"></span></span><span class=\"word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white\"><span class=\"h-3 w-3 rounded-full bg-red-500\"></span></span></span>k.</p>",
-    "heroLede": "An independent bilingual 360 marketing agency rooted in Saudi Arabia and Egypt, built for brands that need cultural fluency, performance discipline, and speed.",
-    "heroPrimary": "Request a consultation",
-    "heroSecondary": "Explore services",
-    "consoleTop": "Regional edge index",
-    "consoleFooter": [
-      "Saudi insight",
-      "Egyptian talent",
-      "GCC reach"
-    ],
-    "marquee": [
+  en: {
+    title: "Double Eyes | 360 Marketing Agency in Saudi Arabia",
+    description: "Double Eyes is an independent bilingual 360 marketing and advertising agency based in Saudi Arabia, serving brands across the GCC and wider MENA region.",
+    nav: ["Who We Are", "Services", "How We Work", "Contact"],
+    footerNav: ["Who We Are", "Services", "How We Work", "Contact"],
+    ctaNav: "Request consultation",
+    menuTitle: "Open menu",
+    heroEyebrow: "Saudi Arabia / GCC / MENA",
+    heroTitle: heroTitleHtml.en,
+    heroLede: "Double Eyes is an independent bilingual 360 marketing agency built to help ambitious brands grow through cultural insight, creative excellence, and performance-driven execution.",
+    heroPrimary: "Request a consultation",
+    heroSecondary: "Explore services",
+    consoleTop: "Regional growth signal",
+    consoleFooter: ["Saudi insight", "Arabic-native", "MENA reach"],
+    marquee: [
       "Arabic-native strategy",
+      "Social media management",
       "Paid media",
-      "Social management",
+      "Content production",
+      "Brand identity",
       "Influencer marketing",
       "SEO",
-      "Brand identity",
       "Web development",
       "PR & activation"
     ],
-    "directorEyebrow": "Who We Are",
-    "directorTitle": "One agency. Two markets. Every edge.",
-    "panels": [
+    directorEyebrow: "Who We Are",
+    directorTitle: "A Saudi-based 360 agency built for regional growth.",
+    panels: [
       [
-        "Saudi + Egypt Roots",
-        "We grew up in the markets we serve.",
-        "Our team combines Riyadh market rigour with Cairo creative energy, giving brands insight from both sides of the Red Sea."
+        "Independent 360 Agency",
+        "We connect strategy, creative, media, web, PR, and activation.",
+        "Every engagement is planned as one connected marketing system, not a pile of disconnected deliverables."
       ],
       [
-        "Arabic-Native First",
-        "Strategy is not translated into Arabic. It starts there.",
-        "Creative, copy, community, and media buying are shaped around how Arabic-speaking consumers behave, speak, and buy."
+        "Arabic-Native Thinking",
+        "We do not translate strategy into Arabic. We think in it.",
+        "Creative, copy, community management, and media buying are built around how Arabic-speaking audiences behave, speak, and purchase."
       ],
       [
         "Performance Discipline",
-        "Every campaign is accountable to business outcomes.",
-        "ROAS, CPL, conversion rate, pipeline value, and lead quality shape how we plan, report, and optimize."
+        "Creativity is tied to measurable business impact.",
+        "ROAS, CPL, conversion rate, lead quality, revenue, and pipeline value shape how we plan, optimize, report, and scale."
       ],
       [
-        "360 Partner",
-        "Strategy, creative, media, web, PR, and activation under one roof.",
-        "We connect every service to a single question: is this moving the business forward?"
+        "Regional Expertise",
+        "We understand the GCC and wider MENA from the inside.",
+        "From Ramadan and national moments to Snapchat, TikTok, search, and influencer behavior, we build campaigns around local culture and platform nuance."
       ]
     ],
-    "collisionWord": "RIYADH / CAIRO",
-    "collisionEyebrow": "Our Advantage",
-    "collisionTitle": "Cultural intelligence, performance transparency, and real access for ambitious brands.",
-    "collisionCard": [
+    collisionWord: "SAUDI / GCC / MENA",
+    collisionEyebrow: "Our Advantage",
+    collisionTitle: "Cultural relevance, live performance insight, and hands-on partnership for brands ready to grow.",
+    collisionCard: [
       "regional fluency",
-      "Built for Saudi SMEs, international brands entering the Kingdom, and Egyptian companies expanding across MENA."
+      "Built for Saudi businesses ready to scale, international companies entering the region, and ambitious brands expanding across the Middle East."
     ],
-    "systemEyebrow": "What We Do",
-    "systemTitle": "A complete service suite under one strategic roof.",
-    "bento": [
+    systemEyebrow: "What We Do",
+    systemTitle: "A complete service suite under one strategic roof.",
+    bento: [
       [
         "Digital / Social",
-        "End-to-end social media management across Instagram, Snapchat, TikTok, X, YouTube, and LinkedIn in Arabic and English."
+        "End-to-end social media management across Instagram, Snapchat, TikTok, X, YouTube, and LinkedIn, with strategy, calendars, community, and reporting."
       ],
       [
         "Branding",
-        "Brand strategy, positioning, visual identity, Arabic typography, messaging, and guidelines."
+        "Brand strategy, visual identity, Arabic and bilingual branding, messaging, guidelines, rebranding, and print collateral."
       ],
       [
         "Production",
-        "Photo, video, reels, motion graphics, design, and bilingual copy ready for every platform."
+        "Photo shoots, video, reels, motion graphics, design, product demos, and creative copy designed to stop the scroll."
       ],
       [
         "Performance / Paid Media",
-        "Google, Meta, Snapchat, TikTok, programmatic, ROAS tracking, and real-time budget optimization."
+        "Full-funnel campaigns across Google, Meta, Snapchat, TikTok, and programmatic with ROAS tracking and real-time budget optimization."
       ],
       [
         "SEO",
-        "Technical audits, Arabic keyword research, on-page optimization, content strategy, and link building."
+        "Technical audits, keyword research, Arabic SEO, on-page optimization, content strategy, and link building for sustainable visibility."
       ],
       [
         "Web",
-        "Mobile-first, bilingual-ready websites, landing pages, e-commerce, SEO architecture, and CRO."
+        "Mobile-first, bilingual-ready websites, landing pages, e-commerce platforms, maintenance, SEO structure, and conversion rate optimization."
       ],
       [
-        "Strategy / Analytics",
-        "Brand audits, competitor analysis, 360 roadmaps, AI-powered dashboards, live reporting, and KPI frameworks."
+        "Strategy / PR / Activation",
+        "Brand audits, competitor analysis, AI-powered dashboards, PR, community building, OOH, events, and in-store activations."
       ]
     ],
-    "reelEyebrow": "How We Work",
-    "reelTitle": "Market entry. Launch. Scale.",
-    "reel": [
+    reelEyebrow: "How We Work",
+    reelTitle: "A rigorous process from brief to results.",
+    processBody: "We move through a clear rhythm: understand the business and market, build a measurable strategy, produce the work, launch with live tracking, then report and scale what works.",
+    reel: [
       [
         "Discovery",
-        "Business goals, audience, competitors, current performance, brand audit, and structured questionnaire."
+        "Deep dive into business goals, target audience, competitors, current performance, brand audit, and structured questionnaire."
       ],
       [
         "Strategy",
-        "360 marketing strategy, content pillars, channel plan, KPI roadmap, and budget framework."
+        "A bespoke 360 marketing plan with content pillars, channel plan, KPI roadmap, budget framework, and action plan."
       ],
       [
         "Production",
-        "Creative assets, copy, video, and campaign setup reviewed and approved before launch."
+        "Creative assets, copy, video, content, and campaign setup built and approved before launch."
       ],
       [
         "Launch & Optimize",
-        "Real-time tracking, media optimization, engagement analysis, lead quality checks, and creative refresh cycles."
+        "Campaigns go live with real-time tracking, media optimization, engagement analysis, lead quality checks, and creative refresh cycles."
       ],
       [
         "Report & Scale",
-        "Weekly reports, monthly strategy reviews, dashboard access, scaling what works and cutting what does not."
+        "Weekly performance reports, monthly strategy reviews, dashboard visibility, and decisions on what to scale next."
       ]
     ],
-    "proof": [
-      "core markets: Saudi Arabia and Egypt",
-      "regional reach across GCC and wider MENA",
+    market: {
+      eyebrow: "Regional Focus",
+      title: "Saudi roots. GCC fluency. MENA ambition.",
+      body: "Double Eyes helps brands navigate diverse Middle Eastern markets, connect with local audiences, and build meaningful presence through bilingual strategy and execution.",
+      cards: [
+        ["Saudi Arabia", "Market Core", "Saudi consumer behavior, local culture, regulatory awareness, influencer compliance, and platform-specific campaign execution."],
+        ["GCC", "Regional Reach", "Campaign systems shaped for Gulf audiences, cultural calendars, Arabic content, and cross-market growth."],
+        ["MENA", "Expansion", "Bilingual strategy and creative execution for brands entering, scaling, or repositioning across the wider region."]
+      ]
+    },
+    credentials: {
+      eyebrow: "Built For Trust",
+      title: "Transparent, compliant, and focused on measurable growth.",
+      cards: [
+        ["Live reporting", "Clients get weekly performance reports, AI-powered dashboard visibility, and clear reads on what is working and where to optimize."],
+        ["GCAM compliance", "Influencer campaigns are planned around Saudi GCAM and Mawthooq licensing requirements to reduce legal and operational risk."],
+        ["ROI-first methodology", "Every engagement starts with KPIs tied to real business outcomes: leads, revenue, ROAS, conversion quality, and pipeline value."],
+        ["Regional legal awareness", "Compliance, advertising standards, and market-specific considerations are built into planning so brands can move confidently."]
+      ]
+    },
+    proof: [
+      "core focus: Saudi Arabia, GCC, and MENA growth",
+      "full 360° marketing scope across strategy, creative, media, web, PR, and activation",
       "\"We do not just run campaigns. We decode culture, engineer performance, and build brands that mean something.\"",
       "Double Eyes company profile"
     ],
-    "contact": {
-      "eyebrow": "Request a free consultation",
-      "title": "Let's build something that matters.",
-      "body": "Whether you're launching in Saudi Arabia, scaling in Egypt, or entering the wider MENA region, start with a conversation.",
-      "location": "Riyadh / Cairo / GCC & MENA",
-      "badge": "We reply within 24h",
-      "formTitle": "Send the brief",
-      "formBody": "Tell us where the brand is going next",
-      "labels": [
-        "Full name",
-        "Email address",
-        "Company name",
-        "Project type",
-        "Tell us about your brand",
-        "How did you find us?"
-      ],
-      "placeholders": [
-        "Your name",
-        "hello@company.com",
-        "Your brand name",
-        "What market are you entering, scaling, or fixing?"
-      ],
-      "projects": [
+    contact: {
+      eyebrow: "Request a free consultation",
+      title: "Let's build something that matters.",
+      body: "Whether you are launching in Saudi Arabia, expanding across the GCC, or growing throughout the MENA region, start with a conversation.",
+      location: "Saudi Arabia / GCC / MENA",
+      badge: "We reply within 24h",
+      formTitle: "Send the brief",
+      formBody: "Tell us where the brand is going next",
+      labels: ["Full name", "Email address", "Company name", "Project type", "Tell us about your brand", "How did you find us?"],
+      placeholders: ["Your name", "hello@company.com", "Your brand name", "What market are you entering, scaling, or fixing?"],
+      projects: [
         "360 marketing strategy",
         "Social media management",
         "Paid media & performance",
         "Branding & visual identity",
         "Website / e-commerce",
-        "Influencer / PR / activation",
+        "Influencer marketing",
+        "PR / community / activation",
         "Content production",
         "Other"
       ],
-      "sources": [
-        "Google / Search",
-        "Instagram",
-        "LinkedIn",
-        "Referral",
-        "Event / Network",
-        "Other"
-      ],
-      "submit": "Request consultation ->",
-      "safe": "Your info is safe",
-      "reply": "Reply within 24h"
+      sources: ["Google / Search", "Instagram", "LinkedIn", "Referral", "Event / Network", "Other"],
+      submit: "Request consultation ->",
+      safe: "Your info is safe",
+      reply: "Reply within 24h"
     },
-    "footer": {
-      "body": "Bilingual 360 marketing for brands built to win Saudi Arabia, Egypt, and the wider MENA region.",
-      "open": "Start the conversation",
-      "start": "Request consultation",
-      "bottom": "Riyadh / Cairo / GCC & MENA / Bilingual 360 marketing"
+    footer: {
+      body: "Bilingual 360 marketing for brands built to grow in Saudi Arabia, the GCC, and the wider MENA region.",
+      open: "Start the conversation",
+      start: "Request consultation",
+      bottom: "Saudi Arabia / GCC / MENA / Bilingual 360 marketing"
     },
-    "formMessages": {
-      "sending": "Sending...",
-      "receivedPrefix": "Signal received. We will map the first route for",
-      "invalidName": "Please enter your name.",
-      "invalidEmail": "Please enter a valid email.",
-      "invalidMessage": "Tell us a little more (10+ chars).",
-      "success": "Brief received. We'll be in touch within a business day.",
-      "error": "Something jammed the signal. Try again or email hello@doubleeyes.agency."
+    formMessages: {
+      sending: "Sending...",
+      receivedPrefix: "Signal received. We will map the first route for",
+      invalidName: "Please enter your name.",
+      invalidEmail: "Please enter a valid email.",
+      invalidMessage: "Tell us a little more (10+ chars).",
+      success: "Brief received. We'll be in touch within a business day.",
+      error: "Something jammed the signal. Try again or email hello@doubleeyes.agency."
     }
   },
-  "ar": {
-    "title": "Double Eyes | Arabic-Native 360 Marketing Agency",
-    "description": "Double Eyes is Arabic-native, bilingual 360 marketing agency rooted in Saudi Arabia and Egypt.",
-    "nav": [
-      "Who We Are",
-      "Services",
-      "Work",
-      "Contact"
-    ],
-    "footerNav": [
-      "Who We Are",
-      "Services",
-      "Work",
-      "Contact"
-    ],
-    "ctaNav": "Request consultation",
-    "menuTitle": "Open menu",
-    "heroEyebrow": "Riyadh / Cairo / GCC & MENA",
-    "heroTitle": "We engineer the second<br>We decode culture,<br><p class=\"eye-word mt-5\" data-keep-split>l<span class=\"word-eyes inline-flex -translate-y-8 align-middle\" aria-label=\"oo\"><span class=\"sr-only\">oo</span><span class=\"word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white\"><span class=\"h-3 w-3 rounded-full bg-red-500\"></span></span><span class=\"word-eye relative ml-1 inline-flex h-15 w-50 items-center justify-center rounded-full border-6 border-white\"><span class=\"h-3 w-3 rounded-full bg-red-500\"></span></span></span>k.</p>",
-    "heroLede": "An independent bilingual 360 marketing agency rooted in Saudi Arabia and Egypt, built for brands that need cultural fluency, performance discipline, and speed.",
-    "heroPrimary": "Request a consultation",
-    "heroSecondary": "Explore services",
-    "consoleTop": "Regional edge index",
-    "consoleFooter": [
-      "Saudi insight",
-      "Egyptian talent",
-      "GCC reach"
-    ],
-    "marquee": [
-      "Arabic-native strategy",
-      "Paid media",
-      "Social management",
-      "Influencer marketing",
+  ar: {
+    title: "دبل آيز | وكالة تسويق وإعلان 360 في السعودية",
+    description: "دبل آيز وكالة تسويق وإعلان مستقلة ثنائية اللغة 360، مقرها السعودية وتخدم العلامات التجارية في الخليج والشرق الأوسط وشمال أفريقيا.",
+    nav: ["من نحن", "الخدمات", "طريقة العمل", "تواصل"],
+    footerNav: ["من نحن", "الخدمات", "طريقة العمل", "تواصل"],
+    ctaNav: "اطلب استشارة",
+    menuTitle: "فتح القائمة",
+    heroEyebrow: "السعودية / الخليج / الشرق الأوسط",
+    heroTitle: "نفك شفرة الثقافة.<br>ونصمم الأداء.<br>ونبني علامات لها معنى.",
+    heroLede: "دبل آيز وكالة تسويق 360 ثنائية اللغة، تساعد العلامات الطموحة على النمو من خلال فهم السوق، والإبداع، والتنفيذ القائم على الأداء.",
+    heroPrimary: "اطلب استشارة",
+    heroSecondary: "استكشف الخدمات",
+    consoleTop: "مؤشر النمو الإقليمي",
+    consoleFooter: ["فهم سعودي", "عربي أصيل", "انتشار إقليمي"],
+    marquee: [
+      "استراتيجية عربية أصيلة",
+      "إدارة السوشيال",
+      "إعلانات ممولة",
+      "إنتاج محتوى",
+      "هوية تجارية",
+      "تسويق مؤثرين",
       "SEO",
-      "Brand identity",
-      "Web development",
-      "PR & activation"
+      "تطوير مواقع",
+      "علاقات عامة وتفعيل"
     ],
-    "directorEyebrow": "Who We Are",
-    "directorTitle": "One agency. Two markets. Every edge.",
-    "panels": [
+    directorEyebrow: "من نحن",
+    directorTitle: "وكالة 360 سعودية المنشأ ومبنية للنمو الإقليمي.",
+    panels: [
       [
-        "Saudi + Egypt Roots",
-        "We grew up in the markets we serve.",
-        "Our team combines Riyadh market rigour with Cairo creative energy, giving brands insight from both sides of the Red Sea."
+        "وكالة 360 مستقلة",
+        "نربط الاستراتيجية والإبداع والإعلام والمواقع والتفعيل في منظومة واحدة.",
+        "لا نتعامل مع الخدمات كعناصر منفصلة، بل نبني نظاما تسويقيا متكاملا يخدم نمو العلامة ونتائجها."
       ],
       [
-        "Arabic-Native First",
-        "Strategy is not translated into Arabic. It starts there.",
-        "Creative, copy, community, and media buying are shaped around how Arabic-speaking consumers behave, speak, and buy."
+        "تفكير عربي أصيل",
+        "لا نترجم الاستراتيجية إلى العربية، بل نفكر بها من البداية.",
+        "المحتوى، والكتابة، وإدارة المجتمع، وشراء الإعلانات تبنى حول طريقة تفكير الجمهور العربي وسلوكه وقراره."
       ],
       [
-        "Performance Discipline",
-        "Every campaign is accountable to business outcomes.",
-        "ROAS, CPL, conversion rate, pipeline value, and lead quality shape how we plan, report, and optimize."
+        "انضباط الأداء",
+        "الإبداع مرتبط دائما بأثر تجاري قابل للقياس.",
+        "نقيس الحملات عبر العائد، تكلفة العميل المحتمل، التحويل، جودة العملاء، الإيراد، وقيمة الفرص."
       ],
       [
-        "360 Partner",
-        "Strategy, creative, media, web, PR, and activation under one roof.",
-        "We connect every service to a single question: is this moving the business forward?"
+        "خبرة إقليمية",
+        "نفهم الخليج والشرق الأوسط من داخل السوق.",
+        "من رمضان والمناسبات الوطنية إلى سناب شات وتيك توك والبحث والمؤثرين، نبني الحملات على الثقافة وسلوك المنصات."
       ]
     ],
-    "collisionWord": "RIYADH / CAIRO",
-    "collisionEyebrow": "Our Advantage",
-    "collisionTitle": "Cultural intelligence, performance transparency, and real access for ambitious brands.",
-    "collisionCard": [
-      "regional fluency",
-      "Built for Saudi SMEs, international brands entering the Kingdom, and Egyptian companies expanding across MENA."
+    collisionWord: "السعودية / الخليج / مينا",
+    collisionEyebrow: "ميزتنا",
+    collisionTitle: "ملاءمة ثقافية، ووضوح في الأداء، وشراكة عملية للعلامات الجاهزة للنمو.",
+    collisionCard: [
+      "فهم إقليمي",
+      "مناسب للشركات السعودية التي تريد التوسع، والشركات الدولية التي تدخل المنطقة، والعلامات الطموحة التي تنمو في الشرق الأوسط."
     ],
-    "systemEyebrow": "What We Do",
-    "systemTitle": "A complete service suite under one strategic roof.",
-    "bento": [
+    systemEyebrow: "ماذا نقدم",
+    systemTitle: "حلول تسويقية متكاملة تحت سقف استراتيجي واحد.",
+    bento: [
       [
-        "Digital / Social",
-        "End-to-end social media management across Instagram, Snapchat, TikTok, X, YouTube, and LinkedIn in Arabic and English."
+        "رقمي / سوشيال",
+        "إدارة متكاملة لحضور العلامة عبر Instagram وSnapchat وTikTok وX وYouTube وLinkedIn، مع استراتيجية ومحتوى ومجتمع وتقارير."
       ],
       [
-        "Branding",
-        "Brand strategy, positioning, visual identity, Arabic typography, messaging, and guidelines."
+        "الهوية التجارية",
+        "استراتيجية العلامة، الهوية البصرية، الهوية العربية وثنائية اللغة، الرسائل، الدليل البصري، إعادة التسمية، والمطبوعات."
       ],
       [
-        "Production",
-        "Photo, video, reels, motion graphics, design, and bilingual copy ready for every platform."
+        "إنتاج المحتوى",
+        "تصوير فوتوغرافي، فيديو، ريلز، موشن جرافيك، تصميم، عروض منتجات، وكتابة إبداعية مصممة لتلفت الانتباه."
       ],
       [
-        "Performance / Paid Media",
-        "Google, Meta, Snapchat, TikTok, programmatic, ROAS tracking, and real-time budget optimization."
+        "الإعلانات والأداء",
+        "حملات متكاملة عبر Google وMeta وSnapchat وTikTok وProgrammatic مع تتبع العائد وتحسين الميزانية بشكل مستمر."
       ],
       [
         "SEO",
-        "Technical audits, Arabic keyword research, on-page optimization, content strategy, and link building."
+        "تحليل تقني، بحث كلمات، SEO عربي، تحسين الصفحات، استراتيجية محتوى، وبناء روابط لرفع الظهور على المدى الطويل."
       ],
       [
-        "Web",
-        "Mobile-first, bilingual-ready websites, landing pages, e-commerce, SEO architecture, and CRO."
+        "المواقع",
+        "مواقع ومتاجر وصفحات هبوط متوافقة مع الجوال وثنائية اللغة، مع صيانة، وتهيئة بحث، وتحسين معدلات التحويل."
       ],
       [
-        "Strategy / Analytics",
-        "Brand audits, competitor analysis, 360 roadmaps, AI-powered dashboards, live reporting, and KPI frameworks."
+        "استراتيجية / علاقات / تفعيل",
+        "تحليل العلامة والمنافسين، لوحات بيانات مدعومة بالذكاء الاصطناعي، علاقات عامة، بناء مجتمعات، إعلانات خارجية، فعاليات، وتفعيل داخل المتاجر."
       ]
     ],
-    "reelEyebrow": "How We Work",
-    "reelTitle": "Market entry. Launch. Scale.",
-    "reel": [
+    reelEyebrow: "طريقة العمل",
+    reelTitle: "من الملخص إلى النتائج بخطوات واضحة.",
+    processBody: "نبدأ بفهم النشاط والسوق، ثم نبني استراتيجية قابلة للقياس، وننتج العمل، ونطلق الحملات بتتبع مباشر، ثم نراجع النتائج ونوسع ما ينجح.",
+    reel: [
       [
-        "Discovery",
-        "Business goals, audience, competitors, current performance, brand audit, and structured questionnaire."
+        "الاكتشاف",
+        "فهم الأهداف، الجمهور، المنافسين، الأداء الحالي، تدقيق العلامة، واستبيان منظم."
       ],
       [
-        "Strategy",
-        "360 marketing strategy, content pillars, channel plan, KPI roadmap, and budget framework."
+        "الاستراتيجية",
+        "خطة تسويق 360 مع محاور محتوى، قنوات، مؤشرات أداء، إطار ميزانية، وخطة تنفيذ واضحة."
       ],
       [
-        "Production",
-        "Creative assets, copy, video, and campaign setup reviewed and approved before launch."
+        "الإنتاج",
+        "أصول إبداعية، كتابة، فيديو، محتوى، وإعداد الحملات قبل الإطلاق والمراجعة."
       ],
       [
-        "Launch & Optimize",
-        "Real-time tracking, media optimization, engagement analysis, lead quality checks, and creative refresh cycles."
+        "الإطلاق والتحسين",
+        "تتبع مباشر، تحسين الإعلانات، تحليل التفاعل، فحص جودة العملاء، وتجديد الإبداع عند الحاجة."
       ],
       [
-        "Report & Scale",
-        "Weekly reports, monthly strategy reviews, dashboard access, scaling what works and cutting what does not."
+        "التقرير والتوسع",
+        "تقارير أسبوعية، مراجعات استراتيجية شهرية، وضوح عبر اللوحات، وقرارات حول ما يستحق التوسع."
       ]
     ],
-    "proof": [
-      "core markets: Saudi Arabia and Egypt",
-      "regional reach across GCC and wider MENA",
-      "\"We do not just run campaigns. We decode culture, engineer performance, and build brands that mean something.\"",
-      "Double Eyes company profile"
+    market: {
+      eyebrow: "تركيز إقليمي",
+      title: "جذور سعودية. فهم خليجي. طموح مينا.",
+      body: "تساعد دبل آيز العلامات على فهم الأسواق العربية المتنوعة، والتواصل مع الجمهور المحلي، وبناء حضور مؤثر من خلال استراتيجية وتنفيذ ثنائي اللغة.",
+      cards: [
+        ["السعودية", "السوق الأساسي", "سلوك المستهلك السعودي، الثقافة المحلية، الوعي التنظيمي، امتثال المؤثرين، وتنفيذ الحملات حسب طبيعة كل منصة."],
+        ["الخليج", "انتشار إقليمي", "أنظمة حملات مصممة للجمهور الخليجي، والمواسم الثقافية، والمحتوى العربي، والنمو عبر أكثر من سوق."],
+        ["مينا", "التوسع", "استراتيجية وإبداع ثنائي اللغة للعلامات التي تدخل المنطقة أو تتوسع أو تعيد تموضعها في الشرق الأوسط."]
+      ]
+    },
+    credentials: {
+      eyebrow: "مبني للثقة",
+      title: "شفافية، امتثال، وتركيز على نمو قابل للقياس.",
+      cards: [
+        ["تقارير مباشرة", "تقارير أداء أسبوعية، ولوحات بيانات مدعومة بالذكاء الاصطناعي، ووضوح كامل حول ما يعمل وما يحتاج إلى تحسين."],
+        ["امتثال GCAM", "حملات المؤثرين تخطط وفق متطلبات تراخيص GCAM وموثوق في السعودية لتقليل المخاطر القانونية والتشغيلية."],
+        ["منهجية ROI أولا", "كل تعاون يبدأ بمؤشرات أداء مرتبطة بنتائج حقيقية مثل العملاء المحتملين، الإيراد، العائد، جودة التحويل، وقيمة الفرص."],
+        ["وعي تنظيمي إقليمي", "نراعي الأنظمة ومعايير الإعلان وخصوصية كل سوق منذ التخطيط حتى التنفيذ حتى تتحرك العلامات بثقة."]
+      ]
+    },
+    proof: [
+      "تركيز أساسي: السعودية والخليج والشرق الأوسط",
+      "نطاق 360° يشمل الاستراتيجية والإبداع والإعلام والمواقع والعلاقات والتفعيل",
+      "\"نحن لا ندير الحملات فقط. نفك شفرة الثقافة، ونصمم الأداء، ونبني علامات لها معنى.\"",
+      "ملف شركة دبل آيز"
     ],
-    "contact": {
-      "eyebrow": "Request a free consultation",
-      "title": "Let's build something that matters.",
-      "body": "Whether you're launching in Saudi Arabia, scaling in Egypt, or entering the wider MENA region, start with a conversation.",
-      "location": "Riyadh / Cairo / GCC & MENA",
-      "badge": "We reply within 24h",
-      "formTitle": "Send the brief",
-      "formBody": "Tell us where the brand is going next",
-      "labels": [
-        "Full name",
-        "Email address",
-        "Company name",
-        "Project type",
-        "Tell us about your brand",
-        "How did you find us?"
+    contact: {
+      eyebrow: "اطلب استشارة مجانية",
+      title: "لنبن شيئا له معنى.",
+      body: "سواء كنتم تطلقون في السعودية، أو تتوسعون في الخليج، أو تنمون في منطقة الشرق الأوسط وشمال أفريقيا، ابدأوا بمحادثة.",
+      location: "السعودية / الخليج / الشرق الأوسط",
+      badge: "نرد خلال 24 ساعة",
+      formTitle: "أرسل الملخص",
+      formBody: "أخبرنا إلى أين تتجه العلامة",
+      labels: ["الاسم الكامل", "البريد الإلكتروني", "اسم الشركة", "نوع المشروع", "حدثنا عن علامتك", "كيف وصلت إلينا؟"],
+      placeholders: ["اسمك", "hello@company.com", "اسم علامتك", "أي سوق تريد دخوله أو التوسع فيه أو تحسينه؟"],
+      projects: [
+        "استراتيجية تسويق 360",
+        "إدارة السوشيال",
+        "إعلانات وأداء",
+        "هوية بصرية",
+        "موقع / متجر إلكتروني",
+        "تسويق مؤثرين",
+        "علاقات عامة / مجتمع / تفعيل",
+        "إنتاج محتوى",
+        "أخرى"
       ],
-      "placeholders": [
-        "Your name",
-        "hello@company.com",
-        "Your brand name",
-        "What market are you entering, scaling, or fixing?"
-      ],
-      "projects": [
-        "360 marketing strategy",
-        "Social media management",
-        "Paid media & performance",
-        "Branding & visual identity",
-        "Website / e-commerce",
-        "Influencer / PR / activation",
-        "Content production",
-        "Other"
-      ],
-      "sources": [
-        "Google / Search",
-        "Instagram",
-        "LinkedIn",
-        "Referral",
-        "Event / Network",
-        "Other"
-      ],
-      "submit": "Request consultation ->",
-      "safe": "Your info is safe",
-      "reply": "Reply within 24h"
+      sources: ["بحث جوجل", "إنستغرام", "لينكدإن", "ترشيح", "فعالية / شبكة علاقات", "أخرى"],
+      submit: "اطلب الاستشارة ->",
+      safe: "بياناتك محفوظة",
+      reply: "الرد خلال 24 ساعة"
     },
-    "footer": {
-      "body": "Bilingual 360 marketing for brands built to win Saudi Arabia, Egypt, and the wider MENA region.",
-      "open": "Start the conversation",
-      "start": "Request consultation",
-      "bottom": "Riyadh / Cairo / GCC & MENA / Bilingual 360 marketing"
+    footer: {
+      body: "تسويق 360 ثنائي اللغة للعلامات التي تريد النمو في السعودية والخليج والشرق الأوسط.",
+      open: "ابدأ المحادثة",
+      start: "اطلب استشارة",
+      bottom: "السعودية / الخليج / الشرق الأوسط / تسويق 360 ثنائي اللغة"
     },
-    "formMessages": {
-      "sending": "Sending...",
-      "receivedPrefix": "Signal received. We will map the first route for",
-      "invalidName": "Please enter your name.",
-      "invalidEmail": "Please enter a valid email.",
-      "invalidMessage": "Tell us a little more (10+ chars).",
-      "success": "Brief received. We'll be in touch within a business day.",
-      "error": "Something jammed the signal. Try again or email hello@doubleeyes.agency."
+    formMessages: {
+      sending: "جار الإرسال...",
+      receivedPrefix: "وصل الطلب. سنرسم أول خطوة إلى",
+      invalidName: "اكتب اسمك من فضلك.",
+      invalidEmail: "اكتب بريدا صحيحا.",
+      invalidMessage: "نحتاج تفاصيل أكثر قليلا (10 أحرف على الأقل).",
+      success: "وصل الملخص. سنتواصل خلال يوم عمل.",
+      error: "لم يصل الطلب. حاول مرة أخرى أو راسل hello@doubleeyes.agency."
     }
   }
 };
 
-translations.en.processBody = "Every engagement moves through a clear rhythm: diagnose the market, build the system, launch with live data, then scale what proves itself.";
-translations.en.market = {
-  eyebrow: "Two Markets",
-  title: "Cairo creative energy. Riyadh market rigour.",
-  body: "Double Eyes was built by people from both sides of the Red Sea, so brands get cultural instinct and commercial discipline in the same room.",
-  cards: [
-    ["Saudi Arabia", "Riyadh", "Market entry, SME scale, Saudi consumer moments, and GCAM-aware influencer execution."],
-    ["Egypt", "Cairo", "Creative production, Arabic copy, social velocity, and regional expansion support."],
-    ["Reach", "GCC + MENA", "Campaign systems designed for bilingual audiences and cross-market growth."]
-  ]
-};
-translations.en.credentials = {
-  eyebrow: "Built For Trust",
-  title: "Transparent, compliant, and obsessed with measurable growth.",
-  cards: [
-    ["AI-powered reporting", "Live dashboards, weekly performance reads, monthly strategy reviews, and clear optimization decisions."],
-    ["GCAM compliance", "Influencer campaigns are planned with Saudi licensing requirements and brand safety in mind."],
-    ["ROI-first methodology", "Every campaign starts with KPIs tied to leads, revenue, ROAS, pipeline quality, or growth."],
-    ["Bilingual native team", "Strategists, creatives, and account leads move between Arabic and English without losing nuance."]
-  ]
-};
-
-translations.ar = {
-  title: "دبل آيز | وكالة تسويق 360 ثنائية اللغة",
-  description: "دبل آيز وكالة تسويق وإعلان متكاملة 360 تعمل بين الرياض والقاهرة وتخدم أسواق الخليج والشرق الأوسط.",
-  nav: ["من نحن", "الخدمات", "طريقة العمل", "تواصل"],
-  footerNav: ["من نحن", "الخدمات", "طريقة العمل", "تواصل"],
-  ctaNav: "اطلب استشارة",
-  menuTitle: "فتح القائمة",
-  heroEyebrow: "الرياض / القاهرة / الخليج والشرق الأوسط",
-  heroTitle: "نبني استراتيجيات مدروسة<br>تفهم السوق والجمهور",
-  heroLede: "نبني استراتيجيات تسويقية ترتكز على فهم عميق للسوق السعودي والمصري، والثقافة المحلية، وسلوك الجمهور المستهدف.",
-  heroPrimary: "اطلب استشارة",
-  heroSecondary: "استكشف الخدمات",
-  consoleTop: "مؤشر القوة الإقليمية",
-  consoleFooter: ["فهم سعودي", "موهبة مصرية", "انتشار خليجي"],
-  marquee: ["استراتيجية عربية أصيلة", "إعلانات مدفوعة", "إدارة السوشيال", "تسويق مؤثرين", "SEO", "هوية بصرية", "مواقع إلكترونية", "علاقات عامة وتفعيل"],
-  directorEyebrow: "من نحن",
-  directorTitle: "وكالة واحدة.. بخبرة سوقين.",
-  panels: [
-    ["سعودية ومصرية", "تأسست الوكالة بخبرات سعودية ومصرية.", "نجمع بين الرؤية التجارية للسوق السعودي والطاقة الإبداعية المصرية لتقديم منظور تسويقي عميق قائم على الأداء والنتائج."],
-    ["عقلية السوق المحلي", "لا نقوم بترجمة الأفكار إلى العربية.", "نبني الأفكار من الأساس بعقلية عربية وخليجية قريبة من الجمهور الحقيقي وتعكس طبيعة السوق."],
-    ["الأداء والنتائج", "كل حملة وكل محتوى وكل إعلان مبني على هدف واضح.", "نربط التسويق بالنمو والعائد، ونقيس الأداء بتقارير وتحليلات مستمرة."],
-    ["حلول 360", "لا نقدم خدمات منفصلة.", "نبني منظومة تسويقية متكاملة تعمل تحت سقف واحد لتحقيق نمو العلامة ونتائج فعلية."]
-  ],
-  collisionWord: "الرياض / القاهرة",
-  collisionEyebrow: "ميزتنا",
-  collisionTitle: "فهم حقيقي للسوق السعودي والخليجي والمصري، وشفافية كاملة في الأداء.",
-  collisionCard: ["حضور إقليمي", "نعمل مع الشركات الناشئة، العلامات المتوسطة، الشركات المتوسعة، والعلامات الإقليمية والدولية لبناء حضور قوي ومستدام داخل السوق."],
-  systemEyebrow: "ماذا نقدم",
-  systemTitle: "حلول تسويقية متكاملة تحت سقف واحد.",
-  bento: [
-    ["إدارة حسابات التواصل", "إدارة احترافية لحسابات العلامة عبر Instagram وSnapchat وTikTok وX وYouTube وLinkedIn، مع خطط محتوى وتقارير دورية وإدارة تفاعل بالعربية والإنجليزية."],
-    ["الهوية التجارية", "نصمم هوية متكاملة تعكس شخصية المشروع وتساعد على بناء صورة ذهنية قوية في أذهان العملاء."],
-    ["صناعة المحتوى", "ننتج محتوى احترافيا مصمما للمنصات الرقمية الحديثة: تصوير، فيديو، ريلز، موشن جرافيك، تصميم وكتابة محتوى إبداعي."],
-    ["الإعلانات الممولة", "ندير حملات Google وMeta وSnapchat وTikTok وProgrammatic مع التركيز على الوعي، المبيعات، التحويل، وجودة العملاء."],
-    ["تحسين محركات البحث", "نرفع ظهور العلامات داخل محركات البحث من خلال التحليل التقني، دراسة الكلمات، تحسين المحتوى، بناء استراتيجية SEO، وتحسين أداء الموقع."],
-    ["تصميم وتطوير المواقع", "نصمم مواقع احترافية تدعم نمو الأعمال وتحسن تجربة المستخدم، مع UI/UX، متاجر إلكترونية، توافق للجوال، وتهيئة SEO وCRO."],
-    ["العلاقات والمجتمعات", "نبني صورة موثوقة وحضورا مؤثرا عبر العلاقات الإعلامية، البيانات الصحفية، إدارة السمعة، وبناء المجتمعات الرقمية."]
-  ],
-  reelEyebrow: "طريقة العمل",
-  reelTitle: "آلية عمل واضحة من التحليل إلى التحسين.",
-  processBody: "نعمل بخطوات منظمة تبدأ بفهم النشاط والسوق والجمهور، ثم بناء استراتيجية قابلة للقياس، وتنفيذ الحملات، ومتابعة الأداء وتطوير النتائج.",
-  reel: [
-    ["التحليل والاكتشاف", "فهم النشاط التجاري وتحليل السوق والمنافسين والجمهور المستهدف."],
-    ["بناء الاستراتيجية", "إعداد خطة تسويقية متكاملة بأهداف واضحة ومؤشرات أداء قابلة للقياس."],
-    ["التنفيذ والإنتاج", "تنفيذ الحملات وإنتاج المحتوى والإعلانات وفق أعلى المعايير."],
-    ["المتابعة والتحسين", "تحليل الأداء وتطوير النتائج بشكل مستمر بناء على البيانات والتقارير."],
-    ["النمو المستدام", "تحويل النتائج إلى قرارات تسويقية تساعد العلامة على بناء حضور قوي داخل السوق."]
-  ],
-  market: {
-    eyebrow: "سوقان",
-    title: "السوق المصري والسعودي والخليجي في منظور واحد.",
-    body: "نعمل بين الرياض والقاهرة ونقدم حلولا تسويقية قائمة على الأداء والتحليل العميق للسوق، مع تغطية تمتد إلى الخليج والشرق الأوسط.",
-    cards: [
-      ["السعودية", "الرياض", "فهم لطبيعة السوق المحلي وسلوك المستهلك السعودي وطريقة صناعة التأثير داخله."],
-      ["مصر", "القاهرة", "طاقة إبداعية مصرية وخبرة في المحتوى والإنتاج وبناء حضور رقمي مؤثر."],
-      ["الانتشار", "الخليج والشرق الأوسط", "تغطية إقليمية تدعم العلامات التي تستهدف التوسع والنمو في الأسواق العربية."]
-    ]
-  },
-  credentials: {
-    eyebrow: "مبني للثقة",
-    title: "التزاماتنا: نتائج قابلة للقياس ووضوح كامل.",
-    cards: [
-      ["نتائج قابلة للقياس", "نربط جميع الأعمال التسويقية بأهداف تجارية واضحة وعائد فعلي على الاستثمار."],
-      ["تقارير واضحة وشفافة", "نؤمن بالوضوح الكامل في الأداء والنتائج دون تعقيد أو مبالغة."],
-      ["فهم الأنظمة المحلية", "نعمل وفق الأنظمة التنظيمية داخل المملكة والخليج لضمان تنفيذ الحملات بشكل احترافي ومتوافق."],
-      ["قصص نجاح حقيقية", "هدفنا بناء نتائج مستدامة تساعد العلامات التجارية على النمو وتحقيق حضور قوي داخل السوق."]
-    ]
-  },
-  proof: [
-    "سوقان أساسيان: السعودية ومصر",
-    "انتشار إقليمي في الخليج والشرق الأوسط",
-    "\"نحن لا ندير الحملات فقط. نفك شفرة الثقافة، نصمم الأداء، ونبني علامات لها معنى.\"",
-    "ملف شركة دبل آيز"
-  ],
-  contact: {
-    eyebrow: "اطلب استشارة مجانية",
-    title: "لنبن علامة تجارية تستحق أن ترى.",
-    body: "سواء كنتم تطلقون مشروعا جديدا، أو تتوسعون داخل السعودية أو مصر، أو تستهدفون النمو في الخليج والشرق الأوسط، فنحن هنا لنكون شريككم التسويقي في هذه الرحلة.",
-    location: "الرياض / القاهرة / الخليج والشرق الأوسط",
-    badge: "نرد خلال 24 ساعة",
-    formTitle: "أرسل الملخص",
-    formBody: "أخبرنا إلى أين تتجه العلامة",
-    labels: ["الاسم الكامل", "البريد الإلكتروني", "اسم الشركة", "نوع المشروع", "حدثنا عن علامتك", "كيف وصلت إلينا؟"],
-    placeholders: ["اسمك", "hello@company.com", "اسم علامتك", "أي سوق تريد دخوله أو توسيعه أو تحسينه؟"],
-    projects: ["استراتيجية تسويق 360", "إدارة السوشيال", "إعلانات وأداء", "هوية بصرية", "موقع / متجر إلكتروني", "مؤثرون / علاقات عامة / تفعيل", "إنتاج محتوى", "أخرى"],
-    sources: ["بحث جوجل", "إنستغرام", "لينكدإن", "ترشيح", "فعالية / شبكة علاقات", "أخرى"],
-    submit: "اطلب الاستشارة ->",
-    safe: "بياناتك محفوظة",
-    reply: "الرد خلال 24 ساعة"
-  },
-  footer: {
-    body: "تسويق 360 ثنائي اللغة للعلامات التي تريد الفوز في السعودية ومصر والشرق الأوسط.",
-    open: "ابدأ المحادثة",
-    start: "اطلب استشارة",
-    bottom: "الرياض / القاهرة / الخليج والشرق الأوسط / تسويق 360 ثنائي اللغة"
-  },
-  formMessages: {
-    sending: "جار الإرسال...",
-    receivedPrefix: "وصل الطلب. سنرسم أول خطوة إلى",
-    invalidName: "اكتب اسمك من فضلك.",
-    invalidEmail: "اكتب بريدا صحيحا.",
-    invalidMessage: "نحتاج تفاصيل أكثر قليلا (10 أحرف على الأقل).",
-    success: "وصل الملخص. سنتواصل خلال يوم عمل.",
-    error: "لم يصل الطلب. حاول مرة أخرى أو راسل hello@doubleeyes.agency."
-  }
-};
 
 let currentLanguage = localStorage.getItem("doubleEyesLanguage") || "en";
 
